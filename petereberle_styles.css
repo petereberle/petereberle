@@ -1,0 +1,101 @@
+/*Peter Eberle 2020*/
+/**************************/
+/*CONTENTS
+1. Normalize
+2. Body
+3. Text
+4. Menu
+5. Mobile Menu
+6. Elements
+*/
+
+/*(1)*/
+/*Normalize CSS*/
+
+::selection{
+	background:#FBAD18;
+}
+
+::-moz-selection{
+	background:#FBAD18;
+};
+
+/*(2)*/
+/*Body*/
+
+body {
+	overflow-x:hidden;
+}
+
+/*(3)*/
+/*Text*/
+
+body{
+	font-family:'Proxima Nova', sans-serif;
+	font-size:.85rem;
+	letter-spacing: .1rem;
+	color:#515151;
+}
+
+a{
+	text-decoration: none;
+	cursor:pointer;
+	color:#515151;
+    text-decoration-color: #FBAD18;
+    background-image: linear-gradient(to top, transparent 90%, #FBAD18 67%);
+    background-position: 0 10.15rem;
+    background-size: 100%;
+}
+
+h1{
+	font-family:'Montserrat', sans-serif;
+	font-weight:100;
+	font-size:2.2rem;
+	color:#000000;
+}
+
+h2{
+	font-family:'Montserrat', sans-serif;
+	font-weight:100;
+	font-size:1.25rem;
+	color:#000000;
+}
+
+h3{
+	font-family:'Montserrat', sans-serif;
+	font-weight:800;
+	font-size:.85rem;
+	color:#000000;
+	text-transform:uppercase;
+	letter-spacing:.2rem;
+}
+
+/*(4)*/
+/*Menu*/
+
+#menu_wrapper{
+ 	position:fixed;
+ 	top:0;
+ 	left:0;
+ 	right:0;
+ 	height:50px;
+	width:100%;
+ 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+ 	background:#ffffff;
+}
+
+#menu_container{
+	padding:5px;
+}
+
+/*(5)*/
+/*Mobile Menu*/
+
+/*(6)*/
+/*Elements*/
+.heading_block{
+	min-height:30vh;
+	padding-top:100px;
+}
+
+
