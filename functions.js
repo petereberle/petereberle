@@ -33,10 +33,10 @@ $(document).on("click", "a", function () {
      function resizeHeader (){
      if (document.body.scrollTop > 100 | document.documentElement.scrollTop > 100) {
 		    $('.menu_wrapper').addClass('scroll');
-       TweenLite.to(".menu_wrapper", .2, {background: "#ffffff", boxShadow: "0px 0px 8px 0px rgba(0,0,0,0.2)"});
+       TweenLite.to(".menu_wrapper", .5, {backgroundColor: "#ffffff", boxShadow: "0px 0px 8px 0px rgba(0,0,0,0.2)"});
      } else { 
         $('.menu_wrapper').removeClass('scroll');
-        TweenLite.to(".menu_wrapper", .2, {background: "transparent", boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)"});
+        TweenLite.to(".menu_wrapper", .5, {backgroundColor: "#FBAD18", boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)"});
       }
 
       }
