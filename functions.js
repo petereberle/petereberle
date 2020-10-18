@@ -177,7 +177,7 @@ document.querySelectorAll('.menu_search').forEach(item => {
     }
   }
 
-  //EMAIL FORM SUBMISSION FOOTER
+  //Contact Form
 
   function removeProp() {
 
@@ -191,6 +191,7 @@ document.querySelectorAll('.menu_search').forEach(item => {
 
   var name = document.getElementById("senderName").value;
   var senderEmail = document.getElementById("senderAddress").value;
+  var senderMessage = document.getElementById("senderMessage").value;
   var tlx = new TimelineLite();
   var tly = new TimelineLite();
 
@@ -209,7 +210,7 @@ document.querySelectorAll('.menu_search').forEach(item => {
   To : 'peteaeberle@gmail.com',
   From : 'peteaeberle@gmail.com',
   Subject : 'Contact Form | peteeberle.com',
-  Body : 'Name:' + ' ' + name + '<html><br></html>' + 'Email:' + ' ' + senderEmail,
+  Body : 'Name:' + ' ' + name + '<html><br></html>' + 'Email:' + ' ' + senderEmail + '<html><br></html>' + 'Message:' + ' ' + senderMessage,
   }).then(
     tly.staggerTo("#success_message", .5, {display: 'block', opacity: '1', delay:.5}, 0.05)
   );
