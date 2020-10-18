@@ -205,10 +205,10 @@ document.querySelectorAll('.menu_search').forEach(item => {
   document.getElementById("senderAddress").value = '';
 
   Email.send({
-  SecureToken : 'd8858bda-a023-4dd5-bc00-2d4d67f9e7f0',
-  To : 'webmaster@artwalla.com',
-  From : 'webmaster@artwalla.com',
-  Subject : 'Newsletter Join Request',
+  SecureToken : 'f1d7043d-561b-44f7-9bf2-532005760262',
+  To : 'peteaeberle@gmail.com',
+  From : 'peteaeberle@gmail.com',
+  Subject : 'Contact Form | peteeberle.com',
   Body : 'Name:' + ' ' + name + '<html><br></html>' + 'Email:' + ' ' + senderEmail,
   }).then(
     tly.staggerTo("#success_message", .5, {display: 'block', opacity: '1', delay:.5}, 0.05)

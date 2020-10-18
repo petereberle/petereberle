@@ -8,13 +8,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--tween animations-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<!--contact form-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <!--functions-->
 	<script src="functions.js"></script>
 
 </head>
 <body>
 <!--menu-->
-	<div id="menu_wrapper">
+	<div class="menu_wrapper">
 		<div class="flex_container inner">
 			<div id="menu_left">
 				<a class="menu_item slide_btn"><div class="slide_txt">CV</div></a>
@@ -55,7 +57,21 @@
 		<h1>Contact Me</h1>
 		</div>
 		<div class="flex_right">
-			<p>FORM PLACEHOLDER</p>
+			<div id="newsletter_join" class="footer_flex">
+
+							<h1 class="footer_item">ArtWalla Newsletter</h1>
+							<p class="footer_item">Get calls to artists, local events and news.</p>
+							<!--PHP Form-->
+							<form method="post" id="newsletter_form">
+								<input type="text" onchange="removeProp()" placeholder="First and Last Name" class="newsletter_input" id="senderName">
+								<input type="text" onchange="removeProp()" placeholder="Email" class="newsletter_input" id="senderAddress">
+								<p class="newsletter_field" id="error_message">Please enter your name and a valid email</p>
+								<p class="newsletter_field" id="success_message">Thank you for subscribing!</p>
+								<a class="slide_btn footer_item" onclick="sendEmail()">
+									<div class="slide_text">Sign up!</div>
+								</a>
+							</form>
+						</div>
 		</div>
 	</div>
 </div>

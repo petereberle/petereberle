@@ -107,7 +107,7 @@ h3{
 /*(4)*/
 /*Menu*/
 
-#menu_wrapper{
+.menu_wrapper{
  	position:relative;
  	top:0;
  	height:50px;
