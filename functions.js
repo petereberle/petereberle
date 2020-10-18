@@ -204,6 +204,7 @@ document.querySelectorAll('.menu_search').forEach(item => {
   $('#error_message').css({'display' : 'none'});
   document.getElementById("senderName").value = '';
   document.getElementById("senderAddress").value = '';
+   document.getElementById("senderMessage").value = '';
 
   Email.send({
   SecureToken : 'f1d7043d-561b-44f7-9bf2-532005760262',

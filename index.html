@@ -54,24 +54,22 @@
 	<div class="flex_container inner">
 		<div class="flex_left">
 		<img id="profile" class="ellipse_clip" src="assets/PE_port.jpg" alt="Peter Eberle">
-		<h1>Contact Me</h1>
 		</div>
 		<div class="flex_right">
 			<div id="newsletter_join" class="footer_flex">
-
-							<h1 class="footer_item">ArtWalla Newsletter</h1>
-							<p class="footer_item">Get calls to artists, local events and news.</p>
-							<!--PHP Form-->
-							<form method="post" id="newsletter_form">
-								<input type="text" onchange="removeProp()" placeholder="First and Last Name" class="newsletter_input" id="senderName">
-								<input type="text" onchange="removeProp()" placeholder="Email" class="newsletter_input" id="senderAddress">
-								<p class="newsletter_field" id="error_message">Please enter your name and a valid email</p>
-								<p class="newsletter_field" id="success_message">Thank you for subscribing!</p>
-								<a class="slide_btn footer_item" onclick="sendEmail()">
-									<div class="slide_text">Sign up!</div>
-								</a>
-							</form>
-						</div>
+				<h1 class="footer_item">Contact Me</h1>
+					<!--form-->
+					<form method="post" id="newsletter_form">
+						<input type="text" onchange="removeProp()" placeholder="First and Last Name" class="newsletter_input" id="senderName">
+						<input type="text" onchange="removeProp()" placeholder="Email" class="newsletter_input" id="senderAddress">
+						<input type="text" onchange="removeProp()" placeholder="Message" class="newsletter_input" id="senderMessage">
+						<p class="newsletter_field" id="error_message">Please enter your name and email correctly</p>
+						<p class="newsletter_field" id="success_message">Thank you! I'll be in touch soon.</p>
+						<a class="slide_btn footer_item" onclick="sendEmail()">
+						<div class="slide_text">Send</div>
+						</a>
+					</form>
+			</div>
 		</div>
 	</div>
 </div>
