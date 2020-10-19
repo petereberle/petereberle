@@ -228,7 +228,6 @@ h3{
 #profile_phantom{
 	position:relative;
 	display:inline-block;
-	z-index:-1;
 }
 
 #profile_phantom:after{
