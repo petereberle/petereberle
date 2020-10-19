@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <head>
 <title>Peter Eberle</title>
+<meta charset='utf-8'>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Flatdoc -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+  <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
 <!--stylesheet-->
 <link href="petereberle_styles.css" rel="stylesheet" type="text/css">
 <!--fonts-->
@@ -15,8 +21,28 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <!--functions-->
 	<script src="functions.js"></script>
+
+  <script>
+    Flatdoc.file = function(locations) {
+        function loadData(locations, response, callback) {
+          if (locations.length === 0) callback(null, response);
+          else $.get(locations.shift()).done(function (data) {
+            loadData(locations, response + data, callback);
+          }).fail(function(data) {
+            callback(data, null)
+          });
+        }
+
+        return function(callback) {
+          loadData(locations instanceof Array ? locations : [locations], '', callback);
+        }
+      };
+Flatdoc.run({
+      fetcher: Flatdoc.file([ 'https://peteeberle.com/README.md', 'https://peteeberle.com/test1.md' ])
+});
+  </script>
 </head>
-<body>
+<body role='flatdoc'>
 <!--menu-->
 	<div class="menu_wrapper">
 		<div class="flex_container_row inner">
@@ -37,18 +63,13 @@
 	</div>
 </div>
 <div class="inner content">
-	<h1>Hello</h1>
-	Lorem ipsum <a href="artwalla.com">lorem ipsum</a> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-	<h2>Lorem Ipsum</h2>
-	<h3>Lorem Ipsum</h3>
-	<h1>Hello</h1>
-	Lorem ipsum <a href="artwalla.com">lorem ipsum</a> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-	<h2>Lorem Ipsum</h2>
-	<h3>Lorem Ipsum</h3>
-	<h1>Hello</h1>
-	Lorem ipsum <a href="artwalla.com">lorem ipsum</a> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-	<h2>Lorem Ipsum</h2>
-	<h3>Lorem Ipsum</h3>
+	<div class='content-root'>
+    <div class='menubar'>
+      <div class='menu section' role='flatdoc-menu'></div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
 </div>
 <div id="contact">
 	<div class="flex_container_row inner">
