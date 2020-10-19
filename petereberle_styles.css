@@ -179,12 +179,12 @@ h3{
 
 .flex_left{
 	width:40%;
-	align-self:left;
+	align-content: left;
 }
 
 .flex_right{
 	width:40%;
-	align-self:left;
+	align-content: right;
 }
 
 .ellipse_clip{
