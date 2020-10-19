@@ -20,27 +20,8 @@
 <!--contact form-->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <!--functions-->
-	<script src="functions.js"></script>
+<script src="js/functions.js"></script>
 
-  <script>
-    Flatdoc.file = function(locations) {
-        function loadData(locations, response, callback) {
-          if (locations.length === 0) callback(null, response);
-          else $.get(locations.shift()).done(function (data) {
-            loadData(locations, response + data, callback);
-          }).fail(function(data) {
-            callback(data, null)
-          });
-        }
-
-        return function(callback) {
-          loadData(locations instanceof Array ? locations : [locations], '', callback);
-        }
-      };
-Flatdoc.run({
-      fetcher: Flatdoc.file([ 'https://peteeberle.com/README.md'])
-});
-  </script>
 </head>
 <body role='flatdoc'>
 <!--menu-->
@@ -63,12 +44,9 @@ Flatdoc.run({
 	</div>
 </div>
 <div class="inner content">
-	<div class='content-root'>
-    <div class='menubar'>
-      <div class='menu section' role='flatdoc-menu'></div>
-    </div>
-    <div role='flatdoc-content' class='content'></div>
-  </div>
+	<script src="js/stmd.js"></script>
+	<script src="js/render.js"></script>
+	</script>
 </div>
 <div id="contact">
 	<div class="flex_container_row inner">

@@ -1,18 +1,18 @@
-<span class="section">
+<div class="section">
 
 # test
 description 1
 
-</span>
-<span class="section">
+</div>
+<div class="section">
 
 # test 1
 description 2
 
-</span>
-<span class="section">
+</div>
+<div class="section">
 
 # test 2
 description 3
 
-</span>
+</div>
