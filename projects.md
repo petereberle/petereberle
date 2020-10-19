@@ -1,8 +1,8 @@
 <div class="article">
 
 # commonmark works!
-![](https://commonmark.org/help/images/favicon.png)
-description 1
+* ![](https://commonmark.org/help/images/favicon.png)
+* description 1
 
 </div>
 <div class="article">
