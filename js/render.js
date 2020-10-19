@@ -1,5 +1,5 @@
 (function () {
-  var file = file || "https://peteeberle.com/projects.md";
+  var file = file || "projects.md";
   var reader = new stmd.DocParser();
   var writer = new stmd.HtmlRenderer();
   var xhr = new XMLHttpRequest();
