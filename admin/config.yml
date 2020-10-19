@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: you/you.github.io
+  repo: petereberle/petereberle.github.io
   branch: master
-  site_domain: octopus-cat-123456.netlify.com
+  site_domain: peteeberle.com
 
 media_folder: "images/uploads"
 
