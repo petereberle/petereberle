@@ -354,4 +354,8 @@ textarea{
 		text-align:center;
 	}
 
+	.article{
+		width: 40%;
+	}
+
 }
