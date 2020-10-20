@@ -268,7 +268,7 @@ li{
 
 .heading_block{
 	height:calc(100vh - 150px);
-	min-height:300px;
+	min-height:500px;
 	padding-top:100px;
 	padding-bottom:50px;
 	position:relative;
@@ -450,6 +450,13 @@ textarea{
 
 	.article{
 		width: 44%;
+	}
+
+	/*Down Arrow*/
+
+	#down_scroll_wrapper{
+		position:relative;
+		bottom:unset;
 	}
 
 }
