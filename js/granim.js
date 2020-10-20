@@ -6,9 +6,10 @@ var granimInstance = new Granim({
         "default-state": {
             gradients: [
                 ['#FBAD18', '#EA9B1C'],
-                ['#FBAD18', '#f46626']
+                ['#FBAD18', '#f46626'],
+                ['#EA9B1C', '#FBAD18']
             ],
-            transitionSpeed: 8000
+            transitionSpeed: 4000
         }
     }
 });
