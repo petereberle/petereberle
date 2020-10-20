@@ -452,10 +452,24 @@ textarea{
 		width: 44%;
 	}
 
-	/*Down Arrow*/
+	#down_scroll_wrapper{
+		bottom:30px;
+	}
+
+}
+
+@media screen and (max-height:649px){
 
 	#down_scroll_wrapper{
 		display:none;
 	}
 
-}
+	}
+
+@media screen and (max-width:400px){
+
+	.article{
+		width: 100%;
+	}
+
+	}
