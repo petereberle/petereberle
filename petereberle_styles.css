@@ -22,7 +22,7 @@
 
 ::-moz-selection{
 	background:#FBAD18;
-};
+}
 
 /*(2) Body
 **************************/
@@ -82,6 +82,10 @@ h3{
 	color:#3b3b43;
 	text-transform:uppercase;
 	letter-spacing:.2rem;
+}
+
+li{
+	list-style: none;
 }
 
 /*Slide Button Animation*/
