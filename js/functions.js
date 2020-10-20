@@ -1,9 +1,8 @@
 //TIMELINE LOAD
 
 $(document).ready(function(){
-
-    TweenMax.from('#entry', .5 {opacity: '0', marginLeft: '-100px', ease:Power2.easeInOut, repeat:0, delay:1});
-    TweenMax.from('#down_scroll_wrapper', .5 {opacity: '0', marginTop: '-100px', ease:Power2.easeInOut, repeat:0, delay:1});
+    
+    TweenMax.from("#down_scroll_wrapper", .75, {opacity: '0', bottom: '50px', ease:Power2.easeInOut, repeat:0, delay:1});
 
   });
 
