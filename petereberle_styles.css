@@ -1,17 +1,20 @@
 /*Peter Eberle 2020*/
 /**************************/
 /*CONTENTS
-1. Normalize
+1. Browser
 2. Body
 3. Text
 4. Menu
 5. Mobile Menu
-6. Elements
-7. Media Queries
+6. Entry
+7. Global Layout
+8. Main Content
+9. Elements
+10. Media Queries
 */
 
-/*(1)*/
-/*Normalize CSS*/
+/*(1) Browser
+**************************/
 
 ::selection{
 	background:#FBAD18;
@@ -21,16 +24,16 @@
 	background:#FBAD18;
 };
 
-/*(2)*/
-/*Body*/
+/*(2) Body
+**************************/
 
 body{
 	overflow-x:hidden;
 	margin:0px;
 }
 
-/*(3)*/
-/*Text*/
+/*(3) Text
+**************************/
 
 body{
 	overflow-x:hidden;
@@ -107,8 +110,8 @@ h3{
 	width:100%;
 }
 
-/*(4)*/
-/*Menu*/
+/*(4) Menu
+**************************/
 
 .menu_wrapper{
  	position:relative;
@@ -157,11 +160,18 @@ h3{
 	width:100%;
 }
 
-/*(5)*/
-/*Mobile Menu*/
+/*(5) Mobile Menu
+**************************/
 
-/*(6)*/
-/*Layout Elements*/
+/*(6) Entry
+**************************/
+
+#entry{
+
+}
+
+/*(7) Global Layout
+**************************/
 
 .inner{
 	display:block;
@@ -205,8 +215,8 @@ h3{
 	clip-path: circle(145px at center);
 }
 
-/*(7)*/
-/*Main Content*/
+/*(8) Main Content
+**************************/
 
 .content{
 	display:flex;
@@ -231,8 +241,9 @@ h3{
 	font-size:2em;
 }
 
-/*(8)*/
-/*Elements*/
+/*(9) Elements
+**************************/
+
 .heading_block{
 	height:100vh;
 	min-height:300px;
@@ -336,8 +347,8 @@ textarea{
 	color:black;
 }
 
-/*(9)*/
-/*Media Queries*/
+/*(10) Media Queries
+**************************/
 
 @media screen and (max-width:900px){
 
