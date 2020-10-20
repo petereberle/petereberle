@@ -455,7 +455,7 @@ textarea{
 	/*Down Arrow*/
 
 	#down_scroll_wrapper{
-		
+		display:none;
 	}
 
 }
