@@ -245,6 +245,12 @@ li{
 	flex:1 0 auto;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+
+#heading{
+
 }
 
 .article{
