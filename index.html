@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+<title>Peter Eberle</title>
+<meta charset='utf-8'>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--stylesheet-->
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="petereberle_styles.css" rel="stylesheet" type="text/css">
+<!--fonts-->
+<link href="assets/fonts/fonts.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,800;1,100;1,400;1,800&display=swap" rel="stylesheet">
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--tween animations-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<!--contact form-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<!--functions-->
+<script src="js/functions.js"></script>
+<script src="js/stmd.js"></script>
+	<script src="js/render.js"></script>
+	</script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180937211-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180937211-1');
+</script>
+<!-- End Google Analytics -->
+</head>
+<body>
+<!--menu-->
+	<div class="menu_wrapper">
+		<div class="flex_container_row inner">
+			<div id="menu_left">
+				<a class="menu_item slide_btn"><div class="slide_txt">CV</div></a>
+				<a href="#projects" class="menu_item slide_btn"><div class="slide_txt">Projects</div></a>
+				<a href="#contact" class="menu_item slide_btn last"><div class="slide_txt">Contact</div></a>
+			</div>
+			<a id="menu_right" href="#home" class="icon menu_item last"><img src="assets/arrow_no_tail.svg" alt="Up"></a>
+		</div>
+	</div>
+<!--mobile menu-->
+<!--heading-->
+<div class="heading_block">
+	<div class="inner">
+			<div id="entry" class="flex_container_row">
+				<div class="flex_left">
+				<h1>Hello,<br> I'm Peter Eberle</h1>
+				<p>I'm an artist, designer and nonprofit coordinator based in Walla Walla, Washington. My recent projects include web development  for ArtWalla, a local nonprofit arts organization.</p>
+				</div>
+				<div class="flex_right">
+
+				</div>
+			</div>
+		</div>
+	<!--Gradient BG-->
+	<canvas id="home"></canvas>
+</div>
+<div id="projects" class="inner content">
+<!--Markdown renders here-->
+</div>
+<div id="contact">
+	<div class="flex_container_row inner">
+		<div class="flex_left_c">
+			<div id="profile_phantom">
+				<img id="profile" class="ellipse_clip" src="assets/PE_port.jpg" alt="Peter Eberle">
+				<div class="flex_container_row" style="justify-content: flex-end;">
+					<a class="clear" href="https://www.instagram.com/p.a.eberle"><img class="icon_xl" src="assets/instagram.png" alt="Instagram"></a>
+					<a class="clear" href="https://www.linkedin.com/in/eberlepeter"><img class="icon_xl" src="assets/linkedin.png" alt="Linkedin"></a>
+				</div>
+			</div>
+		</div>
+		<div class="flex_left">
+			<div id="newsletter_join" class="footer_flex">
+				<h1 class="footer_item">Contact Me</h1>
+					<!--form-->
+					<form method="post" id="newsletter_form">
+						<input type="text" onchange="removeProp()" placeholder="First and Last Name" class="newsletter_input" id="senderName">
+						<input type="text" onchange="removeProp()" placeholder="Email" class="newsletter_input" id="senderAddress">
+						<textarea class="newsletter_input" id="senderMessage" placeholder="Message" onchange="removeProp()"></textarea>
+						<p class="newsletter_field" id="error_message">Please enter your name and email correctly</p>
+						<p class="newsletter_field" id="success_message">Thank you! I'll be in touch soon.</p>
+						<a class="slide_btn footer_item" onclick="sendEmail()">
+						<div class="slide_text">Send</div>
+						</a>
+					</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="flex_container_row inner">
+		<div class="flex_left_c">
+			<p>Designed and built by Peter Eberle</p>
+		</div>
+		<div class="flex_right_c">
+			<p>Hosted on Github</p>
+		</div>
+	</div>
+	<!--After DOM load scripts-->
+	<!--gradient animations-->
+<script src="js/granim.js-2.0.0/dist/granim.min.js"></script>
+<script src="js/granim.js"></script>
+</div>
+</body>
+</html>
