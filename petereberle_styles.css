@@ -221,6 +221,10 @@ h3{
 	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1)
 }
 
+.article h1{
+	font-size:2em;
+}
+
 /*(8)*/
 /*Elements*/
 .heading_block{
@@ -356,7 +360,7 @@ textarea{
 	}
 
 	.article{
-		width: 46%;
+		width: 45%;
 	}
 
 }
