@@ -454,9 +454,6 @@ textarea{
 
 	/*Down Arrow*/
 
-	#down_scroll_wrapper{
-		position:relative;
-		bottom:unset;
-	}
+	
 
 }
