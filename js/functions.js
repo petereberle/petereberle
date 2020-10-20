@@ -1,3 +1,13 @@
+//GET WINDOW HEIGHT
+
+$(document).ready(function() {
+
+  var windowHeight = $(window).height() - 150;
+
+  $(".heading_block").height(windowHeight);
+
+});
+
 //TIMELINE LOAD
 
 $(document).ready(function(){
