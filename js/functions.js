@@ -81,14 +81,13 @@ function toggleNav(x) {x.classList.toggle("bartoggle");}
 
               }
           }  
-
-//SEARCH POPUP
-
-//CHANGE WA SEARCH PLACEHOLDER
+//ARTICLES (ADD CLASSES TO CHILDEN)
 
 $(document).ready(function(){
 
-	$('#idid_t9YUzjq_searchBox').attr('placeholder', 'Search ArtWalla');
+      $('.article').children(":first-child").addClass("title");
+      $('.article').find("ul").addClass("images");
+      $('.images').children(":first-child").addClass("first");
 
 });
 
@@ -126,51 +125,6 @@ document.onload = clearFirst();
 
 });
 
-  //REVEAL SEARCH BAR
-
-    $(document).ready(function () {
-      $("#search_link").toggle(function(){
-
-        $("#search_bar_container").addClass('show_search');
-
-      }, function(){
-
-        $("#search_bar_container").removeClass('show_search');
-
-      }
-      );
-  });
-
-  //OPEN SEARCH POPUP
-
-    var searchtl = new TimelineLite();
-    var searchContainer = document.getElementById("search_popup_container");
-
-document.querySelectorAll('.menu_search').forEach(item => {
-  item.addEventListener('click', event => {
-      
-          if (searchContainer.style.marginRight < "0%") {
-
-              searchContainer.style.width = "100%";
-              searchtl.staggerTo("#search_popup_container", .5, {marginRight: '0%', opacity: '1', delay:.5}, 0.05);
-
-              $("body").addClass('search_locked');
-          }
-
-      })
-}) 
-  //CLOSE SEARCH POPUP
-
-  function closeSearch(){
-
-    if (searchContainer.style.marginRight > "-100%") {
-
-    searchtl.staggerTo("#search_popup_container", .5, {marginRight: '-100%', opacity: '0', delay:.5}, 0.05);
-
-    $("body").removeClass('search_locked');
-   
-    }
-  }
 
   //Contact Form
 
