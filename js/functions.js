@@ -30,6 +30,7 @@ $(document).on("click", "a", function () {
     
      window.onscroll = function () { resizeHeader(); };
 
+
      function resizeHeader (){
      if (document.body.scrollTop > 100 | document.documentElement.scrollTop > 100) {
 		    $('.menu_wrapper').addClass('scroll');

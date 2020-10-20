@@ -134,7 +134,7 @@ h3{
 .menu_item{
 	display:block;
 	background-image:unset;
-	color:#3b3b43;
+	color:#ffffff;
 	margin-right:20px;
 	padding-top: 12px;
 }
@@ -204,9 +204,20 @@ h3{
 
 .flex_left{
 	width:50%;
+	text-align:left;
 }
 
 .flex_right{
+	width:50%;
+	text-align:right;
+}
+
+.flex_left_c{
+	width:50%;
+	text-align:left;
+}
+
+.flex_right_c{
 	width:50%;
 	text-align:right;
 }
@@ -384,6 +395,15 @@ textarea{
 	}
 
 	.flex_right{
+		width:100%;
+	}
+
+	.flex_left_c{
+		width:100%;
+		text-align:center;
+	}
+
+	.flex_right_c{
 		width:100%;
 		text-align:center;
 	}
