@@ -14,6 +14,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--tween animations-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<!--scroll to section-->
+<script src="js/jquery.scrollTo-2.1.2/jquery.scrollTo.js"></script>
+<script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="js/menu_scroll.js"></script>
 <!--contact form-->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <!--functions-->
@@ -38,8 +42,8 @@
 		<div class="flex_container_row inner">
 			<div id="menu_left">
 				<a class="menu_item slide_btn"><div class="slide_txt">CV</div></a>
-				<a href="#projects" class="menu_item slide_btn"><div class="slide_txt">Projects</div></a>
-				<a href="#contact" class="menu_item slide_btn last"><div class="slide_txt">Contact</div></a>
+				<a href="#" onclick="scrolltoSection(&quot;#projects&quot;);" class="menu_item slide_btn"><div class="slide_txt">Projects</div></a>
+				<a href="#" onclick="scrolltoSection(&quot;#contact&quot;);" class="menu_item slide_btn last"><div class="slide_txt">Contact</div></a>
 			</div>
 			<a id="menu_right" href="#home" class="icon menu_item last"><img src="assets/arrow_no_tail.svg" alt="Up"></a>
 		</div>
