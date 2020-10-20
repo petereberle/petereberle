@@ -7,6 +7,7 @@
 * ![](images/thesis_detail.jpg) 
 * ![](images/thesis_detail.jpg)
 * ![](images/thesis_detail.jpg)
+
 </div>
 <div class="article">
 
