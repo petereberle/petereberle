@@ -456,7 +456,7 @@ textarea{
 
 	#down_scroll_wrapper{
 		position:relative;
-		bottom:unset;
+		bottom:unset!important;
 	}
 
 }
