@@ -14,6 +14,9 @@
     var content = writer.renderBlock(parsed);
     document.getElementsByClassName("content")[0].innerHTML = content;
     
+      $('.article').children(":first-child").addClass("title");
+      $('.article').find("ul").addClass("images");
+      $('.images').children(":first-child").addClass("first");
   }
 
   xhr.open('GET', file);
