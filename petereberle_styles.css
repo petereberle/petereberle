@@ -219,6 +219,11 @@ h3{
 	width:31%;
 	margin:20px 10px;
 	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1)
+	cursor:pointer;
+}
+
+.article:hover{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2)
 }
 
 .article h1{
@@ -360,7 +365,7 @@ textarea{
 	}
 
 	.article{
-		width: 45%;
+		width: 44%;
 	}
 
 }
