@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
     
-    TweenMax.from("#down_scroll_wrapper", .75, {opacity: '0', bottom: '90px', ease:Power2.easeInOut, repeat:0, delay:1.25});
+    TweenMax.from("#down_scroll_wrapper", .75, {opacity: '0', bottom: '100px', ease:Power2.easeInOut, repeat:0, delay:1.25});
 
   });
 
