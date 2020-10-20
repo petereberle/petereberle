@@ -1,28 +1,11 @@
-//FADE OUT ON LINK CLICK
+//TIMELINE LOAD
 
-$(document).on("click", "a", function () {
+$(document).ready(function(){
 
-    // get the href attribute
-    var newUrl = $(this).attr("href");
+    TweenMax.from('#entry', .5 {opacity: '0', marginLeft: '-100px', ease:Power2.easeInOut, repeat:0, delay:1});
+    TweenMax.from('#down_scroll_wrapper', .5 {opacity: '0', marginTop: '-100px', ease:Power2.easeInOut, repeat:0, delay:1});
 
-    // verify if the new url exists or is a hash
-    if ((!newUrl || newUrl[0] === "#") && newUrl != "javascript:void(0);") {
-        // set that hash
-        location.hash = newUrl;
-        return;
-    }
-
-	if (newUrl != "javascript:void(0);"){
-    // now, fadeout the html (whole page)
-    $("html").fadeOut(function () {
-        // when the animation is complete, set the new location
-        location = newUrl;
-    });
-	
-	}
-    // prevent the default browser behavior.
-    return false;
-});
+  });
 
 //ON SCROLL EVENTS
 
@@ -36,17 +19,18 @@ $(document).on("click", "a", function () {
        TweenLite.to(".menu_wrapper", .5, {backgroundColor: "#ffffff", boxShadow: "0px 0px 8px 0px rgba(0,0,0,0.2)"});
        TweenLite.to(".menu_item", .5, {color:"#3b3b43"});
        TweenLite.to("#menu_right", .5, {opacity: "1"});
+       TweenLite.to("#down_scroll_wrapper", .5, {opacity: '0'});
      } else { 
         $('.menu_wrapper').removeClass('scroll');
         TweenLite.to(".menu_wrapper", .5, {backgroundColor: "transparent", boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)"});
         TweenLite.to(".menu_item", .5, {color:"#ffffff"});
         TweenLite.to("#menu_right", .5, {opacity: "0"});
+        TweenLite.to("#down_scroll_wrapper", .5, {opacity: '1'});
       }
 
       }
 
     });
-
 
 //ON CLICK OPEN MOBILE
 

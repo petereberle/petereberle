@@ -262,9 +262,10 @@ li{
 **************************/
 
 .heading_block{
-	height:100vh;
+	height:calc(100vh - 150px);
 	min-height:300px;
 	padding-top:100px;
+	padding-bottom:50px;
 	position:relative;
 	z-index:1;
 }
@@ -301,7 +302,7 @@ li{
 }
 
 .icon{
-	width:20px;
+	width:30px;
 	height:auto;
 }
 
@@ -309,6 +310,24 @@ li{
 	width:50px;
 	height:auto;
 	margin-right:10px;
+}
+
+/*Down Arrow*/
+
+#down_scroll_wrapper{
+	text-align:center;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#down_scroll{
+	transform: rotate(180deg);
+	width:50px;
+	height:auto;
 }
 
 /*Profile*/
