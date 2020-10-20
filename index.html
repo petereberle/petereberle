@@ -46,17 +46,20 @@
 	</div>
 <!--mobile menu-->
 <!--heading-->
-<div id="home" class="heading_block">
+<div class="heading_block">
 	<div class="inner">
-		<div id="entry" class="flex_container_row">
-			<div class="flex_left">
-			<h1>Hello,<br> I'm Peter Eberle</h1>
-			</div>
-			<div class="flex_right">
+			<div id="entry" class="flex_container_row">
+				<div class="flex_left">
+				<h1>Hello,<br> I'm Peter Eberle</h1>
 				<p>I'm an artist, designer and nonprofit coordinator based in Walla Walla, Washington. My recent projects include web development  for ArtWalla, a local nonprofit arts organization.</p>
+				</div>
+				<div class="flex_right">
+
+				</div>
 			</div>
 		</div>
-	</div>
+	<!--Gradient BG-->
+	<canvas id="home"></canvas>
 </div>
 <div id="projects" class="inner content">
 <!--Markdown renders here-->
@@ -99,6 +102,11 @@
 			<p>Hosted on Github</p>
 		</div>
 	</div>
+	<!--After DOM load scripts-->
+	<!--gradient animations-->
+<script src="js/granim.js-2.0.0/dist/granim.min.js"></script>
+<script src="js/granim.js"></script>
 </div>
+
 </body>
 </html>

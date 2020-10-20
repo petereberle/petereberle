@@ -114,11 +114,11 @@ h3{
 **************************/
 
 .menu_wrapper{
- 	position:relative;
+ 	position:absolute;
  	top:0;
  	height:50px;
 	width:100%;
-	background-color:#FBAD18;
+	background-color:transparent;
 	z-index:50;
 }
 
@@ -147,6 +147,7 @@ h3{
 	display:block;
 	align-self:right;
 	align-items:center;
+	opacity:0;
 }
 
 /*Scroll*/
@@ -203,7 +204,6 @@ h3{
 
 .flex_left{
 	width:50%;
-	text-align:left;
 }
 
 .flex_right{
@@ -247,8 +247,20 @@ h3{
 .heading_block{
 	height:100vh;
 	min-height:300px;
-	padding: 100px 0 20px 0;
-	background:#FBAD18;
+	padding-top:100px;
+	position:relative;
+	z-index:1;
+}
+
+#home{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:100%;
+	width:100%;
+	z-index:-1;
 }
 
 #contact{
@@ -369,7 +381,6 @@ textarea{
 
 	.flex_left{
 		width:100%;
-		text-align:center;
 	}
 
 	.flex_right{
