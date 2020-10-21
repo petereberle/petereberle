@@ -370,7 +370,8 @@ li{
 	visibility: hidden;
 	opacity:0;
 	position:absolute;
-	right:94px;
+	top: 50px;
+    right: 20px;
 	z-index:49;
 }
 
