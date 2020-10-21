@@ -587,6 +587,7 @@ textarea{
 
 	.active .title{
 		margin-bottom:0;
+		font-size:2rem;
 	}
 
 	.active .main{
