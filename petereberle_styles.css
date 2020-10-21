@@ -368,10 +368,10 @@ li{
 	visibility: hidden;
 	opacity:0;
 	position:absolute;
-	right:0;
+	right:20px;
 }
 
-#close:before{
+/*#close:before{
 	content:'close';
 	font-family:'Proxima Nova', sans-serif;
 	font-size:1rem;
@@ -380,7 +380,7 @@ li{
 	line-height: 1.4;
 	position:absolute;
 	right: 35px;
-}
+}*/
 
 /*(9) Elements
 **************************/
