@@ -101,7 +101,7 @@ function closeProject (){
     TweenLite.fromTo('.active', .5, {width:"100%"}, {width:"31%"});
   }
 
-    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1"}, {visibility:"hidden", opacity:"0"});
+    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1"}, {visibility:"hidden", opacity:"0", height: "0"});
 
   //Reconstruct Styles
 
@@ -113,7 +113,7 @@ function closeProject (){
 
    var sectionTitle = $('#project').children(":first-child");
 
-    TweenLite.to(sectionTitle, 2, {opacity: '1', marginLeft: "0"});
+    TweenLite.to(sectionTitle, 2, {opacity: '1', marginLeft: "0", height: "unset"});
 
    $('.title').addClass("proxima");
 
