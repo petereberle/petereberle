@@ -264,9 +264,10 @@ li{
 	padding-bottom:10%;
 }
 
-#heading{
-
+#project>h1{
+	margin-top:0;
 }
+
 
 .article{
 	width:31%;
