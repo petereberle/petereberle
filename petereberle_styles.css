@@ -370,8 +370,8 @@ li{
 	visibility: hidden;
 	opacity:0;
 	position:absolute;
-	top: 50px;
-    right: 20px;
+	top: 80px;
+    right: 19px;
 	z-index:49;
 }
 
@@ -580,6 +580,10 @@ textarea{
 	.flex_right_c{
 		width:100%;
 		text-align:center;
+	}
+
+	#project{
+		padding-top:15%;
 	}
 
 	.article{
