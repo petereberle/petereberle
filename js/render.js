@@ -41,7 +41,7 @@
       
       var sectionTitle = $('#project').children(":first-child");
 
-      TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px"});
+      TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px", height: "0"});
 
       $('.title').removeClass("proxima");
 
@@ -101,7 +101,7 @@ function closeProject (){
     TweenLite.fromTo('.active', .5, {width:"100%"}, {width:"31%"});
   }
 
-    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1"}, {visibility:"hidden", opacity:"0", height: "0"});
+    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1"}, {visibility:"hidden", opacity:"0"});
 
   //Reconstruct Styles
 
