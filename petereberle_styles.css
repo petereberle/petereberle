@@ -288,6 +288,7 @@ li{
 	order:1;
 	box-shadow:unset;
 	cursor:unset;
+	margin:0;
 }
 
 .article.active:hover{
