@@ -583,6 +583,10 @@ textarea{
 		width: 44%;
 	}
 
+	.active .title{
+		margin-bottom:0;
+	}
+
 	.active .main{
 		flex-wrap:wrap-reverse;
 	}
