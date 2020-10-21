@@ -141,7 +141,6 @@ $(window).resize(function() {
 
 }
 
-
   }
 
   xhr.open('GET', file);

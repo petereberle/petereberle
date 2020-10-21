@@ -369,7 +369,6 @@ li{
 	opacity:0;
 	position:absolute;
 	right:0;
-	top:-50px;
 }
 
 #close:before{
@@ -423,6 +422,10 @@ li{
 	flex:1 0 auto;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+#project{
+	position:relative;
 }
 
 #contact{
