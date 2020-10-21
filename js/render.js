@@ -121,23 +121,28 @@ function closeProject (){
 
 //Check if window has resized and close open project
 
-$(window).resize(function() {
+var cachedWidth = $(window).width();
+    $(window).resize(function(){
+        var newWidth = $(window).width();
+        if(newWidth !== cachedWidth){  
 
-    closeProject();
+          closeProject();
 
-    var windowWidth = $(window).width();
+          var windowWidth = $(window).width();
 
-    if(windowWidth < 900){
+          if(windowWidth < 900){
 
-        $('.article').css({'width' : '44%'});
+             $('.article').css({'width' : '44%'});
         
-      } else {
+          } else {
 
-        $('.article').css({'width' : '31%'});
+             $('.article').css({'width' : '31%'});
         
-      }
+          }
 
-    });
+    cachedWidth = newWidth;
+    }
+});
 
 }
 
