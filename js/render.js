@@ -99,10 +99,6 @@ $('#close').click( function () {
         
     }
 
-  $(window).scrollTo(document.getElementById("project"), 1500, {
-    easing: 'easeInOutQuart'
-  });
-
   });
 
 function closeProject (){
