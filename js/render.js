@@ -1,3 +1,9 @@
+// Peter Eberle 2020
+// Description: Static CMS that fetches a markdown file, parses and renders it. <div class="article">
+// elements in the markdown file provide purchase for simple jQuery to traverse the rendered tree and
+// and seed classes. Greensocks tweens perform the heavy lifting in the UI. Rebuilds on screen resize
+// for mobile responsiveness.
+
 //Get markdown file
 
 (function () {
@@ -11,7 +17,7 @@
     }
   };
 
-//Render inside ".content"
+//Render inside "#projects"
 
   function display(xhr) {
     var parsed = reader.parse(xhr.responseText);
@@ -30,8 +36,9 @@
   $('.article').children().not(".main, .title, .proxima").addClass("images");
   $('.images').children("li").addClass("alt");
 
+//Rebuild & animate render zone on project click
 
-    $('.article').click(function(){
+  $('.article').click(function(){
 
       $(this).addClass("active");
 
@@ -53,7 +60,11 @@
 
       $(this).css({'display' : 'block'});
 
-    } 
+    }
+
+    $(window).scrollTo(document.getElementById("project"), 1500, {
+    easing: 'easeInOutQuart'
+    });
 
   });
 
@@ -87,6 +98,10 @@ $('#close').click( function () {
         $('.article').css({'width' : '31%'});
         
     }
+
+  $(window).scrollTo(document.getElementById("project"), 1500, {
+    easing: 'easeInOutQuart'
+  });
 
   });
 
