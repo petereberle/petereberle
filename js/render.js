@@ -16,7 +16,7 @@
   function display(xhr) {
     var parsed = reader.parse(xhr.responseText);
     var content = writer.renderBlock(parsed);
-    document.document.getElementById('projects').innerHTML = content;
+    document.getElementById('projects').innerHTML = content;
     
 //Add classes to rendered tree
 
