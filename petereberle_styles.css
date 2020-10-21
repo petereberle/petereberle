@@ -583,6 +583,18 @@ textarea{
 		width: 44%;
 	}
 
+	.active .main{
+		flex-wrap:wrap-reverse;
+	}
+
+	.active .first{
+		width:100%;
+	}
+
+	.active .description{
+		width:100%;
+	}
+
 	#down_scroll_wrapper{
 		bottom:30px;
 	}
