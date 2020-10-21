@@ -373,6 +373,17 @@ li{
 	top: 80px;
     right: 19px;
 	z-index:49;
+	display:table;
+}
+
+#close>span{
+	display:table-cell;
+	vertical-align:middle
+}
+
+#close>img{
+	display:table-cell;
+	vertical-align:middle
 }
 
 /*#close:before{
