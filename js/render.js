@@ -80,6 +80,7 @@ $('.filter').click(function(){
   if (selected){
     $(this).addClass("filtered");
     $('.filtered').attr('data-content', tagName);
+    $('.article').not(tagName).removeClass("filtered");
 
   }
 
