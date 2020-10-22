@@ -33,8 +33,33 @@
   $('.main').children(":first-child").addClass("first");
   $('.first').next().addClass("description");
   $('.first').find("img").addClass("card");
-  $('.article').children().not(".main, .title, .proxima").addClass("images");
-  $('.images').children("li").addClass("alt");
+  $('.article').children().not(".main, .title, .proxima, h2").addClass("images");
+  $('.images > li').addClass("alt");
+  $('.article').children("h2").addClass("tag");
+
+//Project filters
+
+var tagArray = [];
+console.log(tagArray);
+
+$('.tag').each(function(){
+
+   var value = $(this).html();
+
+   console.log(value);
+
+   $(this).parent('.article').addClass(value);
+
+    tagArray.push(value.split(' ')[0]);
+
+});
+
+//Create filter btns from array
+
+for (var i=0; i < tagArray.length; i++) {
+    document.getElementById("filters").innerHTML += "<div onclick= 'filterThis(\"" + tagArray[i] + "\")' id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
+    }
+
 
 //Rebuild & animate render zone on project click
 
@@ -46,9 +71,9 @@
 
       $('#projects').css({'display' : 'block'});
       
-      var sectionTitle = $('#project').children(":first-child");
+      var sectionTitle = $('#section_menu').children(":first-child");
 
-      TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px", height: "0"});
+      TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px", height: "0", position: "absolute"});
 
       $('.title').removeClass("proxima");
 
@@ -82,12 +107,12 @@ var windowWidth = $(window).width();
         TweenLite.fromTo('.active', .5, {width:"31;%"}, {width:"100%"});
       }
 
-  TweenLite.fromTo('#close', .2, {visibility:"hidden", opacity:"0"}, {visibility:"visible", opacity:"1"});
+  TweenLite.fromTo('#close', .2, {visibility:"hidden", opacity:"0", marginTop: "0"}, {visibility:"visible", opacity:"1", marginTop: "20px"});
 
-// On click close
+  // On click close
 
 $('#close').click( function () {
-  closeProject()
+  closeProject();
 
   if(windowWidth < 900){
 
@@ -101,6 +126,9 @@ $('#close').click( function () {
 
   });
 
+}
+
+
 function closeProject (){
 
   //Tween Close
@@ -112,7 +140,7 @@ function closeProject (){
     TweenLite.fromTo('.active', .5, {width:"100%"}, {width:"31%"});
   }
 
-    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1"}, {visibility:"hidden", opacity:"0"});
+    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1", marginTop: "20"}, {visibility:"hidden", opacity:"0", marginTop: "0"});
 
   //Reconstruct Styles
 
@@ -122,9 +150,9 @@ function closeProject (){
 
    $('#projects').css({'display' : 'flex'});
 
-   var sectionTitle = $('#project').children(":first-child");
+   var sectionTitle = $('#section_menu').children(":first-child");
 
-    TweenLite.to(sectionTitle, 2, {opacity: '1', marginLeft: "0", height: "unset"});
+    TweenLite.to(sectionTitle, 1, {opacity: '1', marginLeft: "0", height: "unset", position: "relative"});
 
    $('.title').addClass("proxima");
 
@@ -155,7 +183,26 @@ var cachedWidth = $(window).width();
     }
 });
 
+//Filter on click
+
+function filterThis(tagName){
+
+  closeProject();
+
+  $('.article').each(function(){
+
+  var selected = $(this).hasClass(tagName);
+
+  if (selected){
+    $(this).addClass("filtered");
+    $('.article').not($(this)).removeClass("filtered");
+  }
+
+});
+
 }
+
+//End render rebuild
 
   }
 
