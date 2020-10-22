@@ -17,3 +17,17 @@ function draw() {
 	let p = random(parentHeight);
 	line(r,i,g,p);
 }
+
+$('.heading_block').resize( function(){
+
+	var newWidth = document.querySelector(".heading_block").offsetWidth;
+	var newHeight = document.querySelector(".heading_block").offsetHeight;
+	
+	function windowResized() {
+  		resizeCanvas(windowWidth, windowHeight);
+	}
+});
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
