@@ -76,7 +76,9 @@ $('.filter').click(function(){
 
   if (selected){
     $(this).addClass("filtered");
+    $('.filtered').attr('data-content', tagName);
     $('.article').not($(this)).removeClass("filtered");
+
   }
 
   });
