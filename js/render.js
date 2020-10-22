@@ -57,7 +57,7 @@ $('.tag').each(function(){
 //Create filter btns from array
 
 for (var i=0; i < tagArray.length; i++) {
-    document.getElementById("filters").innerHTML += "<div onclick= 'filterThis(\"" + tagArray[i] + "\")' id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
+    document.getElementById("filters").innerHTML += "<div id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
     }
 
 //Filter on click
