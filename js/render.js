@@ -189,6 +189,8 @@ $('.filter').click(function (){
 
   var tagName = $(this).attr('id');
 
+  console.log(tagName);
+
   closeProject();
 
   $('.article').each(function(){
