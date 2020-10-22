@@ -54,10 +54,13 @@ $('.tag').each(function(){
 
 });
 
-//Create filter btns from array
+//Remove duplicate tags from array
 
-for (var i=0; i < tagArray.length; i++) {
-    document.getElementById("filters").innerHTML += "<div id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
+var uniqueTag = [...new Set(tagArray)];
+
+//Create filter btns from array
+    for (var i=0; i < uniqueTag.length; i++) {
+      document.getElementById("filters").innerHTML += "<div id='" + uniqueTag[i] + "' class='filter'>" + uniqueTag[i] + "</div>"
     }
 
 //Filter on click
@@ -70,7 +73,7 @@ $('.filter').click(function(){
 
   closeProject();
 
-  $('.article').each(function(){
+  $('.article').each(function(index, element){
 
   var selected = $(this).hasClass(tagName);
 
