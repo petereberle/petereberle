@@ -1,14 +1,14 @@
 <div class="article">
 
 # ArtWalla
-* ![](images/artwalla.com_fin)
+* ![](images/artwalla.com_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/artwalla.com_mobile)
+* ![](images/artwalla.com_mobile.jpg)
 * Responsive mobile experience
-* ![](images/artwalla_old_fin) 
+* ![](images/artwalla_old_fin.jpg) 
 * Version 1 iteration of artwalla.com
 
 <!--put category tag here-->
@@ -19,12 +19,12 @@
 <div class="article">
 
 # ArtSquared Walla Walla
-* ![](images/artsquaredwallawalla.com_fin)
+* ![](images/artsquaredwallawalla.com_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/artsquaredwallawalla.com_square_mobile_gallery) 
+* ![](images/artsquaredwallawalla.com_square_mobile_gallery.jpg) 
 * Randomized gallery reimagined the traditional event experience
 
 <!--put category tag here-->
@@ -35,12 +35,12 @@
 <div class="article">
 
 # Arts in Health
-* ![](images/aih_fin)
+* ![](images/aih_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/artwalla.com_artshealth_mobile) 
+* ![](images/artwalla.com_artshealth_mobile.jpg) 
 * Responsive mobile experience
 
 <!--put category tag here-->
@@ -51,12 +51,12 @@
 <div class="article">
 
 # ArtWalla Art Tour
-* ![](images/art-tour_fin)
+* ![](images/art-tour_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/artwalla.com_art-tour_mobile) 
+* ![](images/artwalla.com_art-tour_mobile.jpg) 
 * Responsive mobile experience
 
 <!--put category tag here-->
@@ -67,12 +67,12 @@
 <div class="article">
 
 # Dia de Los Muertos
-* ![](images/wallawalladdlm.com_fin)
+* ![](images/wallawalladdlm.com_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/www.wallawalladdlm.com_mobile) 
+* ![](images/www.wallawalladdlm.com_mobile.jpg) 
 * Responsive mobile experience
 
 <!--put category tag here-->
@@ -83,12 +83,12 @@
 <div class="article">
 
 # peteeberle.com
-* ![](images/peteeberle.com_fin)
+* ![](images/peteeberle.com_fin.jpg)
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
 
 <!--secondary images-->
 
-* ![](images/peteeberle.com_mobile) 
+* ![](images/peteeberle.com_mobile.jpg) 
 * Responsive mobile experience
 
 <!--put category tag here-->
