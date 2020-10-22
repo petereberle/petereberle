@@ -308,11 +308,14 @@ li{
 }
 
 .filtered:before{
-    content:'//' attr(data-content);
+	content: '//' attr(data-content);
     font-family: 'Proxima Nova', sans-serif;
     font-size: 1rem;
     letter-spacing: .1rem;
-    color: #FBAD18;
+    background-image: radial-gradient(#3b3b43, transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     position: absolute;
     top: 0;
     left: 5px;
