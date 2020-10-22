@@ -57,8 +57,31 @@ $('.tag').each(function(){
 //Create filter btns from array
 
 for (var i=0; i < tagArray.length; i++) {
-    document.getElementById("filters").innerHTML += "<div id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
+    document.getElementById("filters").innerHTML += "<div onclick= 'filterThis(\"" + tagArray[i] + "\")' id='" + tagArray[i] + "' class='filter'>" + tagArray[i] + "</div>"
     }
+
+//Filter on click
+
+$('.filter').click(function(){ 
+
+  var tagName = $(this).prop('id');
+
+  console.log(tagName);
+
+  closeProject();
+
+  $('.article').each(function(){
+
+  var selected = $(this).hasClass(tagName);
+
+  if (selected){
+    $(this).addClass("filtered");
+    $('.article').not($(this)).removeClass("filtered");
+  }
+
+  });
+
+});
 
 
 //Rebuild & animate render zone on project click
@@ -181,29 +204,6 @@ var cachedWidth = $(window).width();
 
     cachedWidth = newWidth;
     }
-});
-
-//Filter on click
-
-$('.filter').click(function (){
-
-  var tagName = $(this).attr('id');
-
-  console.log(tagName);
-
-  closeProject();
-
-  $('.article').each(function(){
-
-  var selected = $(this).hasClass(tagName);
-
-  if (selected){
-    $(this).addClass("filtered");
-    $('.article').not($(this)).removeClass("filtered");
-  }
-
-});
-
 });
 
 //End render rebuild
