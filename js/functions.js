@@ -16,11 +16,6 @@ $(document).ready(function(){
 
   });
 
-//TEST - add classes to render
-
-
-
-
 //ON SCROLL EVENTS
 
     $(document).ready(function(){
@@ -46,85 +41,9 @@ $(document).ready(function(){
 
     });
 
-//ON CLICK OPEN MOBILE
+//Contact Form
 
-function toggleNav(x) {x.classList.toggle("bartoggle");}
-          
-    function openNav() {
-				var navtl = new TimelineLite();
-              	var menu = document.getElementById("mobile_menu_container");
-				var menuContainer = document.getElementById("id_dHdHk9F");
-				
-			
-          if (menu.style.marginLeft < "200%") {
-
-			//HIDE STICKY BAR
-			  $("#sticky_bar").addClass("remove_bar");
-
-			//LOCK BODY SCROLL
-				$("body").addClass("content_locked");
-
-              menu.style.display = "block";
-              menu.style.width = "100%";
-              menu.style.marginLeft = "200%";
-			  navtl.staggerTo("#mobile_menu_container", .5, {opacity: '1', delay:.5}, 0.05);
-			  navtl.staggerTo("#mobile_menu_cutaway", .5, {opacity: '1', delay:.5}, 0.05);
-
-          } else {
-
-			//REMOVE BODY SCROLL LOCK
-				$("body").removeClass("content_locked");
-
-              menu.style.display = "block";
-              menu.style.width = "100%";
-              menu.style.marginLeft = "0%";
-			  navtl.staggerTo("#mobile_menu_container", .5, {opacity: '0', delay:.5}, 0.05);
-			  navtl.staggerTo("#mobile_menu_cutaway", .5, {opacity: '0', delay:.5}, 0.05);
-
-			//SHOW STICKY BAR
-				$("#sticky_bar").removeClass("remove_bar");
-
-              }
-          }  
-
-//REMOVE HOME BUTTON
-
-  $(document).ready( function () {
-
-function clearFirst () {
-
-	var itemContainer = $(".firstLevel");
-	//var linkChild = itemContainer.getElementsByTagName('li');
-
-	itemContainer.attr('id', 'first_item');
-
-}
-
-document.onload = clearFirst();
-
-	 var firstItem = $("#first_item");
-
-	 firstItem.children(":first").attr('id', 'firstMenu');
-
-  });
-
-    //QUICKLINK MENU 
-
-    $(document).ready(function()  {
-    //HOVER REMOVE BORDER
-    $('.quick_link').hover(function() {
-    $(this).siblings().addClass('border_remove');
-      }, function() {
-    //LEAVE HOVER ADD BORDER
-      $(this).siblings().removeClass('border_remove');
-  });
-
-});
-
-
-  //Contact Form
-
-  function removeProp() {
+function removeProp() {
 
     $("#senderName").attr('placeholder','');
 
@@ -134,7 +53,7 @@ document.onload = clearFirst();
 
   }
 
-    function sendEmail() {
+  function sendEmail() {
 
   var name = document.getElementById("senderName").value;
   var senderEmail = document.getElementById("senderAddress").value;
