@@ -84,7 +84,11 @@
 
 # peteeberle.com
 * ![](images/peteeberle.com_fin.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
+* At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
+
+	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed my thesis at home.
+
+	Materials: cast cement, clay, shellac, mortar & oil paint on board
 
 <!--secondary images-->
 
@@ -100,7 +104,7 @@
 
 # Alluvium
 * ![](images/thesis_test.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
+* *Alluvium* 
 
 <!--secondary images-->
 
@@ -109,22 +113,6 @@
 
 <!--put category tag here-->
 
-## art test
-
-</div>
-<div class="article">
-
-# Alluvium
-* ![](images/thesis_test.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
-
-<!--secondary images-->
-
-* ![](images/peteeberle.com_mobile.jpg) 
-* Responsive mobile experience
-
-<!--put category tag here-->
-
-## test
+## art
 
 </div>
