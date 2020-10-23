@@ -118,7 +118,7 @@
 
 <!--put category tag here-->
 
-## web design
+## web
 
 </div>
 <div class="article">
