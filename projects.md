@@ -131,13 +131,6 @@
 
 <!--secondary images-->
 
-* ![](images/Alluvium_1.jpg) 
-* front
-* ![](images/Alluvium_2.jpg)
-* wall detail
-* ![](images/Alluvium_3.jpg)
-* floor detail
-
 <!--put category tag here-->
 
 ## art
