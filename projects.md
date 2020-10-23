@@ -169,6 +169,7 @@
 	Technologies: InDesign
 
 <!--secondary images-->
+
 * Selected Pages
 * ![](images/BM_1.jpg)
 * ![](images/BM_2.jpg)
@@ -176,6 +177,7 @@
 * ![](images/BM_4.jpg)
 * ![](images/BM_5.jpg)
 * ![](images/BM_6.jpg)
+
 <!--put category tag here-->
 
 ## publication design
