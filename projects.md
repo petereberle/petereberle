@@ -108,7 +108,7 @@
 
 # peteeberle.com
 * ![](images/peteeberle.com_fin.jpg)
-* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side. This approach safeguards against errors that often occur when manually adding bulk content to a static HTML page.
+* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file located in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side. This approach safeguards against errors that often occur when manually adding bulk content to a static HTML page.
 
 	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
 
