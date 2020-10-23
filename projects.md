@@ -187,11 +187,13 @@
 
 # Watch until the end
 * ![](images/watch_until_the_end.gif)
-* Experimental still photo, video and digitally painted animation with generated sound. 
+* Experimental still photo, video and digitally painted montage with generated sound. 
 	
 	Watch the [full composition](https://vimeo.com/304703614)
 
 <!--secondary images-->
+
+* <iframe src="https://player.vimeo.com/video/304703614" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <!--put category tag here-->
 
