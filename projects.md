@@ -26,9 +26,9 @@
 
 # ArtSquared
 * ![](images/artsquaredwallawalla.com_fin.jpg)
-* [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla could not host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
+* [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla decided not to host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
 
-	We decided that the site must unique to ArtSquared, fast, and remarkable. To that end, finding the right platform would make all the difference. I selected Wordpress with Woocommerce for its extensibility and vast plugin library. The site runs on a custom child theme paired with Elementor's editor UI for easy content management. 
+	We decided that the site must be unique to ArtSquared, easy to use, and remarkable. To that end, finding the right platform would make all the difference. I selected Wordpress with Woocommerce for its extensibility and vast plugin library. The site runs on a custom child theme paired with Elementor's editor UI for easy content management. 
 
 	Over the course of opening week, the store generated more than $25,0000 in sales and sold 70% of inventory. 
 
@@ -77,10 +77,6 @@
 	Technologies: HTML, CSS, Javascript
 
 <!--secondary images-->
-
-* ![](images/artwalla.com_art-tour_mobile.jpg) 
-* Responsive mobile experience
-
 <!--put category tag here-->
 
 ## web
