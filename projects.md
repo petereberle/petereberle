@@ -70,7 +70,11 @@
 
 # ArtWalla Art Tour
 * ![](images/art-tour_fin.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
+* ArtWalla's First Friday Art Tour is a monthly event from April through October. One of the tour highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
+
+	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that would accompany the opening of these pages
+
+	Technologies: HTML, CSS, Javascript
 
 <!--secondary images-->
 
@@ -112,7 +116,7 @@
 
 	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
 
-	Technologies: HTML, CSS, Javascript, JQuery, p5.js
+	Technologies: HTML, CSS, Javascript, p5.js
 
 <!--secondary images-->
 
@@ -164,7 +168,7 @@
 
 # blue moon vol. 33
 * ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers every year. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe Indesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, well organized publication that improved on previous volumes.
+* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe Indesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, well organized publication that improved on previous volumes.
 
 	Technologies: InDesign, Illustrator, Photoshop
 
