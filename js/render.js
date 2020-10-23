@@ -65,7 +65,7 @@ console.log(uniqueTag);
       document.getElementById("filters").innerHTML += "<div id='" + uniqueTag[i] + "' class='filter'>" + uniqueTag[i] + "</div>"
     }
 
-    $('.filters div:last').addClass("last");
+    $('#filters div:last').addClass("last");
 
 //Filter on click
 
