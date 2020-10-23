@@ -164,8 +164,6 @@
 # Infographics
 * ![](images/IG_6.jpg)
 * Experimental still photo, video and digital painting montage with generated sound. 
-	
-	Watch the full composition below.
 
 <!--secondary images-->
 
