@@ -123,6 +123,44 @@
 </div>
 <div class="article">
 
+# blue moon vol. 33
+* ![](images/Bluemoon_cover_shot.jpg)
+* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
+
+	Technologies: InDesign, Illustrator, Photoshop
+
+<!--secondary images-->
+
+* Selected Pages
+* ![](images/BM_1.jpg)
+* ![](images/BM_2.jpg)
+* ![](images/BM_3.jpg)
+* ![](images/BM_4.jpg)
+* ![](images/BM_5.jpg)
+* ![](images/BM_6.jpg)
+
+<!--put category tag here-->
+
+## publication design
+
+</div>
+<div class="article">
+
+# Builtscape
+* ![](images/Builtscape_lino.jpg)
+* *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
+
+	Materials: lineoleum relief
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Alluvium
 * ![](images/thesis_test.jpg)
 * At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
@@ -143,43 +181,5 @@
 <!--put category tag here-->
 
 ## art
-
-</div>
-<div class="article">
-
-# Builtscape
-* ![](images/Builtscape_lino.jpg)
-* *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
-
-	Materials: lineoleum relief
-
-<!--secondary images-->
-
-<!--put category tag here-->
-
-## art
-
-</div>
-<div class="article">
-
-# blue moon vol. 33
-* ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
-
-	Technologies: InDesign, Illustrator, Photoshop
-
-<!--secondary images-->
-
-* Selected Pages
-* ![](images/BM_1.jpg)
-* ![](images/BM_2.jpg)
-* ![](images/BM_3.jpg)
-* ![](images/BM_4.jpg)
-* ![](images/BM_5.jpg)
-* ![](images/BM_6.jpg)
-
-<!--put category tag here-->
-
-## publication design
 
 </div>
