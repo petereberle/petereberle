@@ -70,9 +70,9 @@
 
 # ArtWalla Art Tour
 * ![](images/art-tour_fin.jpg)
-* ArtWalla's First Friday Art Tour is a monthly event from April through October. One of the tour highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
+* ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
 
-	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that would accompany the opening of these pages
+	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that would accompany the opening of these pages.
 
 	Technologies: HTML, CSS, Javascript
 
