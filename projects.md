@@ -163,7 +163,7 @@
 
 # Infographics
 * ![](images/IG_6.jpg)
-* Experimental still photo, video and digital painting montage with generated sound. 
+* Selected infographics designed to accompany Whitman Wire articles. Emphasized a creative and enticing approach to visualize data.
 
 <!--secondary images-->
 
