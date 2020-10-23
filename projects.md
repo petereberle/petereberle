@@ -26,9 +26,9 @@
 
 # ArtSquared Walla Walla
 * ![](images/artsquaredwallawalla.com_fin.jpg)
-* [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to community COVID-19 guidelines, ArtWalla could not host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
+* [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla could not host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
 
-	We decided that the site must unique to ArtSquared, fast, and remarkable. To that end, finding the right platform would make all the difference. I selected Wordpress with Woocommerce was for its extensibility and vast plugin library. The site runs on a custom child theme paired with Elementor's editor UI for easy content management. 
+	We decided that the site must unique to ArtSquared, fast, and remarkable. To that end, finding the right platform would make all the difference. I selected Wordpress with Woocommerce for its extensibility and vast plugin library. The site runs on a custom child theme paired with Elementor's editor UI for easy content management. 
 
 	Over the course of opening week, the store generated more than $25,0000 in sales and sold 70% of inventory. 
 
@@ -48,11 +48,13 @@
 
 # Arts in Health
 * ![](images/aih_fin.jpg)
-* [Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local intiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla. In partnership with Providence St. Mary Medical Center, Augusta coordinated with other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
+* [Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local intiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla, Washington. In partnership with Providence St. Mary Medical Center, Augusta coordinated with other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
 
-	I created a static page and UI on artwalla.com to serve as the organization's website, tutorial archive and donation portal.
+	I built a static page and UI on artwalla.com to serve as the organization's website, tutorial archive and donation portal.
 
 	Relevant Articles: *[Union Bulletin](https://www.union-bulletin.com/art-kits/article_58215177-5997-5086-bb07-16197bd73431.html)*, *[Art Place](https://www.artplaceamerica.org/blog/first-responder-first-aid-arts-kit)*, *[University of Florida](https://arts.ufl.edu/in-the-loop/news/arts-in-medicine-student-provides-art-kits-to-covid-19-patients/)*
+
+	Technologies: HTML, CSS, Javascript
 
 <!--secondary images-->
 
@@ -84,7 +86,13 @@
 
 # Dia de Los Muertos
 * ![](images/wallawalladdlm.com_fin.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
+* The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update the content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
+
+	Since the festival spanned two days and different locations, I prioritized easy, clear navigation. I also created custom graphics and icons to deliver a unique art direction.
+
+	The site uses a modified Squarespace template and custom HTML/CSS components. Unfortunately, the festival was cancelled in 2020 due to COVID-19, so it is now largely defunct. 
+
+	Technologies: HTML, CSS, Squarespace, Illustrator
 
 <!--secondary images-->
 
@@ -93,7 +101,7 @@
 
 <!--put category tag here-->
 
-## web
+## web design
 
 </div>
 <div class="article">
@@ -150,5 +158,26 @@
 <!--put category tag here-->
 
 ## art
+
+</div>
+<div class="article">
+
+# blue moon vol. 33
+* ![](images/Bluemoon_cover_shot.jpg)
+* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers every year. In 2019 and 2020, I worked with a team of student editors and staff members to build volume 33. As Layout & Digial Media Editor, I redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, more logical publication.
+
+	Technologies: InDesign
+
+<!--secondary images-->
+* Selected Pages
+* ![](images/BM_1.jpg)
+* ![](images/BM_2.jpg)
+* ![](images/BM_3.jpg)
+* ![](images/BM_4.jpg)
+* ![](images/BM_5.jpg)
+* ![](images/BM_6.jpg)
+<!--put category tag here-->
+
+## publication design
 
 </div>
