@@ -72,11 +72,28 @@
 * ![](images/art-tour_fin.jpg)
 * ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
 
-	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that would accompany the opening of these pages.
+	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that accompanied the debut of these pages.
 
 	Technologies: HTML, CSS, Javascript
 
 <!--secondary images-->
+<!--put category tag here-->
+
+## web
+
+</div>
+<div class="article">
+
+# peteeberle.com
+* ![](images/peteeberle.com_fin.jpg)
+* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file located in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side.
+
+	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
+
+	Technologies: HTML, CSS, Javascript, p5.js
+
+<!--secondary images-->
+
 <!--put category tag here-->
 
 ## web
@@ -106,28 +123,11 @@
 </div>
 <div class="article">
 
-# peteeberle.com
-* ![](images/peteeberle.com_fin.jpg)
-* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file located in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side.
-
-	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
-
-	Technologies: HTML, CSS, Javascript, p5.js
-
-<!--secondary images-->
-
-<!--put category tag here-->
-
-## web
-
-</div>
-<div class="article">
-
 # Alluvium
 * ![](images/thesis_test.jpg)
 * At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
 
-	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed my thesis at home.
+	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed a limited version of my thesis at home.
 
 	Materials: cast cement, clay, shellac, mortar & oil paint on board
 
