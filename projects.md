@@ -24,7 +24,7 @@
 </div>
 <div class="article">
 
-# ArtSquared Walla Walla
+# ArtSquared
 * ![](images/artsquaredwallawalla.com_fin.jpg)
 * [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla could not host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
 
@@ -149,7 +149,7 @@
 
 # Builtscape
 * ![](images/Builtscape_lino.jpg)
-* *Builtscape* pilfers the traditional image of romantic landscape painters - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders it   
+* *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
 
 	Materials: lineoleum relief
 
@@ -164,7 +164,7 @@
 
 # blue moon vol. 33
 * ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers every year. In 2019 and 2020, I worked with a team of student editors and staff members to build volume 33. As Layout & Digial Media Editor, I redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, more logical publication.
+* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers every year. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe Indesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, well organized publication that improved on previous volumes.
 
 	Technologies: InDesign, Illustrator, Photoshop
 

@@ -58,6 +58,8 @@ $('.tag').each(function(){
 
 var uniqueTag = [...new Set(tagArray)];
 
+console.log(uniqueTag);
+
 //Create filter btns from array
     for (var i=0; i < uniqueTag.length; i++) {
       document.getElementById("filters").innerHTML += "<div id='" + uniqueTag[i] + "' class='filter'>" + uniqueTag[i] + "</div>"
@@ -82,7 +84,7 @@ $('.filter').click(function(){
     $(this).addClass("filtered");
 
     $('.filtered').attr('data-content', tagName);
-    
+
     $('.article').not('.'+tagName).removeClass("filtered");
 
   }
