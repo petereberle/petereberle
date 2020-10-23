@@ -86,7 +86,7 @@
 
 # Dia de Los Muertos
 * ![](images/wallawalladdlm.com_fin.jpg)
-* The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update the content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
+* The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
 
 	Since the festival spanned two days and different locations, I prioritized easy, clear navigation. I also created custom graphics and icons to deliver a unique art direction.
 
