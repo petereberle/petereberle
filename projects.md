@@ -166,7 +166,7 @@
 * ![](images/Bluemoon_cover_shot.jpg)
 * "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers every year. In 2019 and 2020, I worked with a team of student editors and staff members to build volume 33. As Layout & Digial Media Editor, I redesigned the magazine's layout, font heirarchy and integrated graphics. The result was a cleaner, more logical publication.
 
-	Technologies: InDesign
+	Technologies: InDesign, Illustrator, Photoshop
 
 <!--secondary images-->
 
