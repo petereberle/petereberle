@@ -422,6 +422,7 @@ li{
 .alt{
 	width: calc(100% - 20px);
     margin: 10px;
+    text-align:center;
 }
 
 .alt>img{
