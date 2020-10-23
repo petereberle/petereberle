@@ -186,10 +186,10 @@
 <div class="article">
 
 # Watch until the end
-* ![](images/watch_until_the_end.gif)
+* <iframe src="https://player.vimeo.com/video/304703614" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 * Experimental still photo, video and digitally painted montage with generated sound. 
 	
-	Watch the [full composition](https://vimeo.com/304703614)
+	Watch the full composition below.
 
 <!--secondary images-->
 
