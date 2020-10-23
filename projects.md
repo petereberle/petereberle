@@ -84,12 +84,13 @@
 
 # peteeberle.com
 * ![](images/peteeberle.com_fin.jpg)
-* Description
+* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side. This approach safeguards against errors that often occur when manually adding bulk content to a static HTML page.
+
+	Parsing is accomplished by a [CommonMark JS library](https://github.com/commonmark/commonmark.js)created by John MacFarlane.
+
+	Technologies: HTML, CSS, Javascript, JQuery, p5.js
 
 <!--secondary images-->
-
-* ![](images/peteeberle.com_mobile.jpg) 
-* Responsive mobile experience
 
 <!--put category tag here-->
 
@@ -105,10 +106,37 @@
 	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed my thesis at home.
 
 	Materials: cast cement, clay, shellac, mortar & oil paint on board
+
 <!--secondary images-->
 
-* ![](images/peteeberle.com_mobile.jpg) 
-* Responsive mobile experience
+* ![](images/Alluvium_1.jpg) 
+* front
+* ![](images/Alluvium_2.jpg)
+* wall detail
+* ![](images/Alluvium_3.jpg)
+* floor detail
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
+# Builtscape
+* ![](images/Builtscape_lino.jpg)
+* *Builtscape* pilfers the traditional image of romantic landscape painters - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders it   
+
+	Materials: lineoleum relief
+
+<!--secondary images-->
+
+* ![](images/Alluvium_1.jpg) 
+* front
+* ![](images/Alluvium_2.jpg)
+* wall detail
+* ![](images/Alluvium_3.jpg)
+* floor detail
 
 <!--put category tag here-->
 
