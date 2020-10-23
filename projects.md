@@ -161,6 +161,27 @@
 </div>
 <div class="article">
 
+# Infographics
+* ![](images/IG_6.jpg)
+* Experimental still photo, video and digital painting montage with generated sound. 
+	
+	Watch the full composition below.
+
+<!--secondary images-->
+
+* ![](images/IG_5.jpg)
+* ![](images/IG_3.jpg)
+* ![](images/IG_2.jpg)
+* ![](images/IG_1.jpg)
+* ![](images/IG_4.jpg)
+
+<!--put category tag here-->
+
+## design
+
+</div>
+<div class="article">
+
 # Alluvium
 * ![](images/thesis_test.jpg)
 * At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
@@ -187,7 +208,7 @@
 
 # Watch until the end
 * ![](images/watch_until_the_end.gif)
-* Experimental still photo, video and digitally painted montage with generated sound. 
+* Experimental still photo, video and digital painting montage with generated sound. 
 	
 	Watch the full composition below.
 
