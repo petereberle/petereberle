@@ -1,5 +1,5 @@
 // Peter Eberle 2020
-// Description: Static CMS that fetches a markdown file, parses and renders it. <div class="article">
+// Description: CMS that fetches a markdown file, parses and renders it. <div class="article">
 // elements in the markdown file provide purchase for simple jQuery to traverse the rendered tree and
 // and seed classes. Greensocks tweens perform the heavy lifting in the UI. Rebuilds on screen resize
 // for mobile responsiveness.
@@ -78,8 +78,11 @@ $('.filter').click(function(){
   var selected = $(this).hasClass(tagName);
 
   if (selected){
+
     $(this).addClass("filtered");
+
     $('.filtered').attr('data-content', tagName);
+    
     $('.article').not('.'+tagName).removeClass("filtered");
 
   }
@@ -99,7 +102,7 @@ $('.filter').click(function(){
 
       $('#projects').css({'display' : 'block'});
       
-      var sectionTitle = $('#section_menu').children(":first-child");
+    var sectionTitle = $('#section_menu').children(":first-child");
 
       TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px", height: "0", position: "absolute"});
 

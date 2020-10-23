@@ -2,7 +2,11 @@
 
 # ArtWalla
 * ![](images/artwalla.com_fin.jpg)
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate laoreet dui, sit amet gravida risus cursus nec. Sed eu mi commodo nunc sodales rhoncus. Integer facilisis odio magna, eu porttitor ex aliquam sed. Nullam gravida ex tincidunt magna venenatis tincidunt. Aliquam turpis ligula, lobortis id malesuada scelerisque, hendrerit quis nunc. Quisque fermentum ac eros ac consequat. Sed lobortis tempus dolor, nec condimentum lacus tempus sed.
+* [ArtWalla](https://artwalla.com/) was in need a major facelift to their organization and membership site. I created a custom theme and information organizing strategy to update their web presence and provide an easy interface for ArtWalla members to access their online profiles. The custom theme integrates with WildApricot membership platform to fetch and display member information.
+
+	After implementing the new site, ArtWalla saw an increase in site traffic and membership applications performed online.
+	
+	WildApricot, ArtWalla's membership and hosting platform, took notice of the site and featured ArtWalla in its monthly [organization spotlight](https://www.wildapricot.com/blogs/newsblog/2020/07/27/july-update-2020).
 
 <!--secondary images-->
 
@@ -86,7 +90,7 @@
 * ![](images/peteeberle.com_fin.jpg)
 * My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side. This approach safeguards against errors that often occur when manually adding bulk content to a static HTML page.
 
-	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js)created by John MacFarlane.
+	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
 
 	Technologies: HTML, CSS, Javascript, JQuery, p5.js
 
