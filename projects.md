@@ -2,7 +2,7 @@
 
 # ArtWalla
 * ![](images/artwalla.com_fin.jpg)
-* [ArtWalla](https://artwalla.com/) was in need a major facelift to their organization and membership site. I created a custom theme and information organizing strategy to update their web presence and provide an easy interface for ArtWalla members to access their online profiles. The custom theme integrates with their pre-existing WildApricot membership platform to fetch and display member information.
+* [ArtWalla](https://artwalla.com/) was in need a major facelift to their organization and membership site. I created a custom theme and information organizing strategy to update their web presence and provide an easy interface for ArtWalla members to access their online profiles. The custom theme integrates with the pre-existing WildApricot membership platform to fetch and display member information.
 
 	After implementing the new site, ArtWalla saw an increase in site traffic and membership applications performed online.
 	
@@ -164,7 +164,7 @@
 
 # blue moon vol. 33
 * ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College Art and Literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
+* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
 
 	Technologies: InDesign, Illustrator, Photoshop
 
