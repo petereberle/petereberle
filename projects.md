@@ -163,7 +163,7 @@
 
 # ArtWalla Brochure
 * ![](images/ArtWalla_Brochure_render_2.jpg)
-* Asymmetrical tri-fold brochure designed [ArtWalla](https://artwalla.com) to 
+* Asymmetrical tri-fold brochure created for [ArtWalla's](https://artwalla.com) First Friday Art Tour. Intended to introduce first time visitors to downtown public art works and ArtWalla's event programming. 
 
 <!--secondary images-->
 
