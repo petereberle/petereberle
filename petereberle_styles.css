@@ -482,6 +482,8 @@ li{
 	z-index:1;
 }
 
+/*p5.js parent*/
+
 #sketch-div{
 	position:absolute;
 	top:0;
@@ -493,7 +495,9 @@ li{
 	z-index:-1;
 }
 
-#home{
+/*gradient background*/
+
+#gradient_BG{
 	position:absolute;
 	top:0;
 	left:0;
@@ -502,7 +506,27 @@ li{
 	height:100%;
 	width:100%;
 	z-index:-2;
+	background: linear-gradient(-50deg, #FBAD18, #f4642a, #81cbeb, #f46626, #EA9B1C, #FBAD18);
+	animation: rotate_grad 20s ease infinite;
+	background-size:400% 400%;
 }
+
+@keyframes rotate_grad{
+
+ 	0% {
+  		background-position: 0% 50%;
+        }
+    50% {
+        background-position: 100% 50%;
+        }
+    100% {
+        background-position: 0% 50%;
+        }
+}
+
+/*end gradient background*/
+
+
 
 #projects{
 	position:relative;
