@@ -11,7 +11,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(5);
+	frameRate(7);
 	start();
 }
 
@@ -26,9 +26,9 @@ function draw() {
 	line(l,i,n,e);
 
 	var currentTime = millis();
-	var runTime = 45 * 1000;
+	var runTime = 30 * 1000;
 
-	//restart after 45 secs
+	//restart after 30 secs
 
 	if (currentTime > startTime + runTime){
 		clear();
