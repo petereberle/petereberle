@@ -1,5 +1,3 @@
-/*
-
 var startTime;
 
 function start(){
@@ -13,7 +11,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(7);
+	frameRate(5);
 	start();
 }
 
