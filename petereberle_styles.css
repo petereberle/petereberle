@@ -389,6 +389,7 @@ li{
 .active .first{
 	width:60%;
 	box-shadow:unset;
+	align-items: center;
 }
 
 .active .first:hover{
@@ -409,6 +410,7 @@ li{
 .active .description{
 	display:block;
 	width:60%;
+	align-items: center;
 }
 
 .images{
