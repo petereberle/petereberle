@@ -1,16 +1,18 @@
-var parentWidth = document.querySelector(".heading_block").offsetWidth;
-var parentHeight = document.querySelector(".heading_block").offsetHeight;
-
 var startTime;
 
 function start(){
-	startTime = millis();
+	startTime = millis()
 }
 
 function setup() {
-	var canvas = createCanvas(parentWidth, parentHeight);
+
+	let parentWidth = document.querySelector(".heading_block").offsetWidth;
+	let parentHeight = document.querySelector(".heading_block").offsetHeight;
+
+	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
 	frameRate(5);
+	start();
 }
 
 function draw() {
@@ -24,24 +26,25 @@ function draw() {
 	line(l,i,n,e);
 
 	var currentTime = millis();
-	var runTime = 30 * 1000;
+	console.log(currentTime);
+	var runTime = 45 * 1000;
+	console.log(startTime);
 //restart after 30secs
 
 	if (currentTime > startTime + runTime){
+		clear();
 		start();
 	}
 }
 
-$('.heading_block').resize( function(){
-
-	var newWidth = document.querySelector(".heading_block").offsetWidth;
-	var newHeight = document.querySelector(".heading_block").offsetHeight;
-	
-	function windowResized() {
-  		resizeCanvas(windowWidth, windowHeight);
-	}
-});
+var parentWidth = document.querySelector(".heading_block").offsetWidth;
+var parentHeight = document.querySelector(".heading_block").offsetHeight;
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+
+parentWidth = document.querySelector(".heading_block").offsetWidth;
+parentHeight = document.querySelector(".heading_block").offsetHeight;
+
+resizeCanvas(parentWidth, parentHeight);
+
 }
