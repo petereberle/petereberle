@@ -168,9 +168,9 @@
 <!--secondary images-->
 
 * ![](images/ArtWalla_Brochure_1.jpg)
-* outside and cover 
+* back and cover 
 * ![](images/ArtWalla_Brochure_2.jpg)  
-* inside and back
+* front and back
 
 <!--put category tag here-->
 
