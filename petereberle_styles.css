@@ -474,7 +474,7 @@ li{
 **************************/
 
 .heading_block{
-	height:calc(100vh - 150px); https://muffingroup.com
+	height:calc(100vh - 150px); /*JS sets height inline*/
 	min-height:500px;
 	padding-top:100px;
 	padding-bottom:50px;
