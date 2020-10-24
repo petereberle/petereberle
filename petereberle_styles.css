@@ -429,6 +429,10 @@ li{
 	width:100%;
 }
 
+.alt>iframe{
+	width:100%;
+}
+
 .tag{
 	display:none;
 }
