@@ -26,10 +26,9 @@ function draw() {
 	line(l,i,n,e);
 
 	var currentTime = millis();
-	console.log(currentTime);
 	var runTime = 45 * 1000;
-	console.log(startTime);
-//restart after 30secs
+
+	//restart after 45 secs
 
 	if (currentTime > startTime + runTime){
 		clear();
