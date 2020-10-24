@@ -1,6 +1,12 @@
 var parentWidth = document.querySelector(".heading_block").offsetWidth;
 var parentHeight = document.querySelector(".heading_block").offsetHeight;
 
+var startTime;
+
+function start(){
+	startTime = millis();
+}
+
 function setup() {
 	var canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
@@ -9,13 +15,21 @@ function setup() {
 
 function draw() {
 
-	stroke(255, 255, 255, 20);
+	stroke(255, 255, 255, 30);
 
-	let r = random(parentWidth);
+	let l = random(parentWidth);
 	let i = random(parentHeight);
-	let g = random(parentWidth);
-	let p = random(parentHeight);
-	line(r,i,g,p);
+	let n = random(parentWidth);
+	let e = random(parentHeight);
+	line(l,i,n,e);
+
+	var currentTime = millis();
+	var runTime = 30 * 1000;
+//restart after 30secs
+
+	if (currentTime > startTime + runTime){
+		start();
+	}
 }
 
 $('.heading_block').resize( function(){
