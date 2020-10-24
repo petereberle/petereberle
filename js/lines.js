@@ -26,9 +26,9 @@ function draw() {
 	line(l,i,n,e);
 
 	var currentTime = millis();
-	var runTime = 30 * 1000;
+	var runTime = 40 * 1000;
 
-	//restart after 30 secs
+	//restart after 40 secs
 
 	if (currentTime > startTime + runTime){
 		clear();
