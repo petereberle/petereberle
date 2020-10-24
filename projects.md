@@ -162,7 +162,7 @@
 <div class="article">
 
 # ArtWalla Brochure
-* ![](images/ArtWalla_Brochure_2.jpg)
+* ![](images/ArtWalla_Brochure_render.jpg)
 * Asymmetrical tri-fold brochure designed [ArtWalla](https://artwalla.com) to 
 
 <!--secondary images-->
