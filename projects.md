@@ -161,9 +161,25 @@
 </div>
 <div class="article">
 
+# ArtWalla Brochure
+* ![](images/ArtWalla_Brochure_2.jpg)
+* Asymmetrical tri-fold brochure designed [ArtWalla](https://artwalla.com) to 
+
+<!--secondary images-->
+
+* ![](images/ArtWalla_Brochure_1.jpg) 
+* back and cover 
+
+<!--put category tag here-->
+
+## design
+
+</div>
+<div class="article">
+
 # Infographics
 * ![](images/IG_6.jpg)
-* Selected infographics designed to accompany Whitman Wire articles. Emphasized a creative and enticing approach to visualize data.
+* Selected infographics designed to accompany Whitman Wire articles. Emphasized a creative and enticing approach to visualizing data.
 
 <!--secondary images-->
 
