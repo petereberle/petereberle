@@ -1,3 +1,5 @@
+/*
+
 var startTime;
 
 function start(){
@@ -47,3 +49,5 @@ parentHeight = document.querySelector(".heading_block").offsetHeight;
 resizeCanvas(parentWidth, parentHeight);
 
 }
+
+*/
