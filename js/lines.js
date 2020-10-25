@@ -6,6 +6,7 @@ function start(){
 
 var fadeIn;
 var fadeAmount = 1;
+var cachedWidth = $(window).width();
 
 
 function setup() {
@@ -37,9 +38,18 @@ function draw() {
 	
 	line(l,i,n,e);
 
-	if (fadeIn < 0) fadeAmount = 1;
+	if(cachedWidth < 900){
 
-	if (fadeIn > 60) fadeAmount = -5;
+			if (fadeIn < 0) fadeAmount = 1;
+
+			if (fadeIn > 70) fadeAmount = -5;
+
+	} else{
+
+			if (fadeIn < 0) fadeAmount = 1;
+
+			if (fadeIn > 50) fadeAmount = -5;
+	}
 
 	fadeIn += fadeAmount;
 
@@ -58,8 +68,6 @@ function draw() {
 
 var parentWidth = document.querySelector(".heading_block").offsetWidth;
 var parentHeight = document.querySelector(".heading_block").offsetHeight;
-
-var cachedWidth = $(window).width();
 
 function windowResized() {
 
