@@ -313,13 +313,13 @@ li{
     font-family: 'Proxima Nova', sans-serif;
     font-size: 1rem;
     letter-spacing: .1rem;
-    background-image: radial-gradient(#3b3b43, transparent);
+    background:#3b3b43;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     position: absolute;
     top: 0;
-    left: 5px;
+    padding-left:5px;
 }
 
 .active.filtered:before{
