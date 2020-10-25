@@ -15,7 +15,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(6);
+	frameRate(5);
 	fadeIn = 0;
 	start();
 }
