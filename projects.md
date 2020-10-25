@@ -68,6 +68,47 @@
 </div>
 <div class="article">
 
+# ArtWalla Brochure
+* ![](images/ArtWalla_Brochure_render_2.jpg)
+* Asymmetrical tri-fold brochure created for [ArtWalla's](https://artwalla.com) First Friday Art Tour. Intended to introduce first time visitors to downtown public art works and ArtWalla's event programming. 
+
+<!--secondary images-->
+
+* ![](images/ArtWalla_Brochure_1.jpg)
+* front and cover 
+* ![](images/ArtWalla_Brochure_2.jpg)  
+* back and map
+
+<!--put category tag here-->
+
+## design
+
+</div>
+<div class="article">
+
+# blue moon vol. 33
+* ![](images/Bluemoon_cover_shot.jpg)
+* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
+
+	Technologies: InDesign, Illustrator, Photoshop
+
+<!--secondary images-->
+
+* Selected Pages
+* ![](images/BM_1.jpg)
+* ![](images/BM_2.jpg)
+* ![](images/BM_3.jpg)
+* ![](images/BM_4.jpg)
+* ![](images/BM_5.jpg)
+* ![](images/BM_6.jpg)
+
+<!--put category tag here-->
+
+## publication design
+
+</div>
+<div class="article">
+
 # ArtWalla Art Tour
 * ![](images/art-tour_fin.jpg)
 * ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
@@ -123,29 +164,6 @@
 </div>
 <div class="article">
 
-# blue moon vol. 33
-* ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
-
-	Technologies: InDesign, Illustrator, Photoshop
-
-<!--secondary images-->
-
-* Selected Pages
-* ![](images/BM_1.jpg)
-* ![](images/BM_2.jpg)
-* ![](images/BM_3.jpg)
-* ![](images/BM_4.jpg)
-* ![](images/BM_5.jpg)
-* ![](images/BM_6.jpg)
-
-<!--put category tag here-->
-
-## publication design
-
-</div>
-<div class="article">
-
 # Builtscape
 * ![](images/Builtscape_lino.jpg)
 * *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
@@ -157,24 +175,6 @@
 <!--put category tag here-->
 
 ## art
-
-</div>
-<div class="article">
-
-# ArtWalla Brochure
-* ![](images/ArtWalla_Brochure_render_2.jpg)
-* Asymmetrical tri-fold brochure created for [ArtWalla's](https://artwalla.com) First Friday Art Tour. Intended to introduce first time visitors to downtown public art works and ArtWalla's event programming. 
-
-<!--secondary images-->
-
-* ![](images/ArtWalla_Brochure_1.jpg)
-* front and cover 
-* ![](images/ArtWalla_Brochure_2.jpg)  
-* back and map
-
-<!--put category tag here-->
-
-## design
 
 </div>
 <div class="article">
