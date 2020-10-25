@@ -31,14 +31,10 @@ function draw() {
 	let perspectiveX3 = parentWidth*.79;
 	let perspectiveX4 = parentWidth;
 
-	let l = random(perspectiveX1, perspectiveX2);
-	let i = 0;
-	let n = random(perspectiveX3, perspectiveX4);
-	let e = parentHeight;
-	
-	line(l,i,n,e);
-
 	if(cachedWidth < 900){
+
+			perspectiveX1 = parentWidth*.75
+			perspectiveX3 = parentWidth*.95;
 
 			if (fadeIn < 0) fadeAmount = 1;
 
@@ -50,6 +46,13 @@ function draw() {
 
 			if (fadeIn > 70) fadeAmount = -5;
 	}
+
+	let l = random(perspectiveX1, perspectiveX2);
+	let i = 0;
+	let n = random(perspectiveX3, perspectiveX4);
+	let e = parentHeight;
+	
+	line(l,i,n,e);
 
 	fadeIn += fadeAmount;
 
