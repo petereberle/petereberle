@@ -16,7 +16,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(7);
+	frameRate(4);
 	fadeIn = 0;
 	start();
 }
@@ -25,11 +25,11 @@ function draw() {
 
 	stroke(87, 89, 91, fadeIn);
 
-	let perspectiveX1 = parentWidth*.65;
-	let perspectiveX2 = parentWidth*.85;
+	let perspectiveX1 = parentWidth*.7;
+	let perspectiveX2 = parentWidth;
 
-	let perspectiveX3 = parentWidth*.7;
-	let perspectiveX4 = parentWidth*.8;
+	let perspectiveX3 = parentWidth*.79;
+	let perspectiveX4 = parentWidth;
 
 	let l = random(perspectiveX1, perspectiveX2);
 	let i = 0;
