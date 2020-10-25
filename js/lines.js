@@ -42,13 +42,13 @@ function draw() {
 
 			if (fadeIn < 0) fadeAmount = 1;
 
-			if (fadeIn > 70) fadeAmount = -5;
+			if (fadeIn > 50) fadeAmount = -5;
 
 	} else{
 
 			if (fadeIn < 0) fadeAmount = 1;
 
-			if (fadeIn > 50) fadeAmount = -5;
+			if (fadeIn > 70) fadeAmount = -5;
 	}
 
 	fadeIn += fadeAmount;
