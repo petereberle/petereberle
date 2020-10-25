@@ -8,7 +8,7 @@
 	
 	WildApricot, ArtWalla's membership and hosting platform, took notice of the site and featured ArtWalla in its monthly [organization spotlight](https://www.wildapricot.com/blogs/newsblog/2020/07/27/july-update-2020).
 
-	Technologies: HTML, CSS, Javascript, WildApricot
+	**Technologies:** HTML, CSS, Javascript, WildApricot
 
 <!--secondary images-->
 
@@ -32,7 +32,7 @@
 
 	Over the course of opening week, the store generated more than $25,0000 in sales and sold 70% of inventory. 
 
-	Techologies: CSS, Javascript, Wordpress, Woocommerce, Elementor
+	**Technologies:** CSS, Javascript, Wordpress, Woocommerce, Elementor
 
 <!--secondary images-->
 
@@ -54,7 +54,7 @@
 
 	Relevant Articles: *[Union Bulletin](https://www.union-bulletin.com/art-kits/article_58215177-5997-5086-bb07-16197bd73431.html)*, *[Art Place](https://www.artplaceamerica.org/blog/first-responder-first-aid-arts-kit)*, *[University of Florida](https://arts.ufl.edu/in-the-loop/news/arts-in-medicine-student-provides-art-kits-to-covid-19-patients/)*
 
-	Technologies: HTML, CSS, Javascript
+	**Technologies:** HTML, CSS, Javascript
 
 <!--secondary images-->
 
@@ -90,7 +90,7 @@
 * ![](images/Bluemoon_cover_shot.jpg)
 * "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
 
-	Technologies: InDesign, Illustrator, Photoshop
+	**Technologies:** InDesign, Illustrator, Photoshop
 
 <!--secondary images-->
 
@@ -115,7 +115,7 @@
 
 	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that accompanied the debut of these pages.
 
-	Technologies: HTML, CSS, Javascript
+	**Technologies:** HTML, CSS, Javascript
 
 <!--secondary images-->
 <!--put category tag here-->
@@ -131,7 +131,7 @@
 
 	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
 
-	Technologies: HTML, CSS, Javascript, p5.js
+	**Technologies:** HTML, CSS, Javascript, p5.js
 
 <!--secondary images-->
 
@@ -150,7 +150,7 @@
 
 	The site uses a modified Squarespace template and custom HTML/CSS components. Unfortunately, the festival was cancelled in 2020 due to COVID-19, so it is now largely defunct. 
 
-	Technologies: HTML, CSS, Squarespace, Illustrator
+	**Technologies:** HTML, CSS, Squarespace, Illustrator
 
 <!--secondary images-->
 
@@ -168,7 +168,7 @@
 * ![](images/Builtscape_lino.jpg)
 * *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
 
-	Materials: lineoleum relief
+	**Materials:** lineoleum relief
 
 <!--secondary images-->
 
@@ -204,7 +204,7 @@
 
 	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed a limited version of my thesis at home.
 
-	Materials: cast cement, clay, shellac, mortar & oil paint on board
+	**Materials:** cast cement, clay, shellac, mortar & oil paint on board
 
 <!--secondary images-->
 
