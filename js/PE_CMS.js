@@ -26,6 +26,8 @@
     
 //Add classes to rendered tree
 
+  $(document).ready(function(){
+
   $('.article').children(":first-child").addClass("title proxima");
   $('.article').find("ul:first").addClass("main");
   $('.main').children(":first-child").addClass("first");
@@ -125,6 +127,9 @@ $('.filter').click(function(){
     });
 
   });
+
+});
+
 
 function projectAnim(){
 
