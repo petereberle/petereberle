@@ -506,9 +506,9 @@ li{
 	height:100%;
 	width:100%;
 	z-index:-2;
-	/*background: linear-gradient(-50deg, #FBAD18, #f4642a, #81cbeb, #f46626, #EA9B1C, #FBAD18);
-	animation: rotate_grad 20s ease infinite;
-	background-size:400% 400%;*/
+	/*background: linear-gradient(to top, #767e89 50%, transparent);
+	background-size:350% 350%;*/
+	/*animation: rotate_grad 20s ease infinite;*/
 }
 /*
 @keyframes rotate_grad{
@@ -561,18 +561,13 @@ li{
 /*Down Arrow*/
 
 #down_scroll_wrapper{
-	text-align:center;
-	position:absolute;
-	bottom:80px;
-	left:0;
-	right:0;
-	margin-left:auto;
-	margin-right:auto;
+	padding: 20px 0 0 20px;
+	text-align:left;
 }
 
 #down_scroll{
 	transform: rotate(180deg);
-	width:50px;
+	width:35px;
 	height:auto;
 }
 

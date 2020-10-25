@@ -4,6 +4,10 @@ function start(){
 	startTime = millis()
 }
 
+var fadeIn;
+var fadeAmount = 1;
+
+
 function setup() {
 
 	let parentWidth = document.querySelector(".heading_block").offsetWidth;
@@ -11,22 +15,33 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(5);
+	frameRate(7);
+	fadeIn = 0;
 	start();
 }
 
 function draw() {
 
-	stroke(104, 103, 109, 20);
+	stroke(87, 90, 94, fadeIn);
 
-	let perspectiveX1 = parentWidth*.45;
-	let perspectiveX2 = parentWidth*.55;
+	let perspectiveX1 = parentWidth*.65;
+	let perspectiveX2 = parentWidth*.85;
 
-	let l = random(parentWidth);
+	let perspectiveX3 = parentWidth*.7;
+	let perspectiveX4 = parentWidth*.8;
+
+	let l = random(perspectiveX1, perspectiveX2);
 	let i = 0;
-	let n = random(perspectiveX1, perspectiveX2);
+	let n = random(perspectiveX3, perspectiveX4);
 	let e = parentHeight;
+	
 	line(l,i,n,e);
+
+	if (fadeIn < 0) fadeAmount = 1;
+
+	if (fadeIn > 70) fadeAmount = -10;
+
+	fadeIn += fadeAmount;
 
 	var currentTime = millis();
 	var runTime = 40 * 1000;
@@ -50,3 +65,8 @@ parentHeight = document.querySelector(".heading_block").offsetHeight;
 resizeCanvas(parentWidth, parentHeight);
 
 }
+
+//fade out canvas on complete
+//function fadeOut(){
+//TweenLite.to("#sketch-div", .5, {opacity: '0'});
+//}
