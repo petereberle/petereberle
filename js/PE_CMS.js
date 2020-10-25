@@ -10,23 +10,21 @@
   var file = file || "projects.md";
   var reader = new stmd.DocParser();
   var writer = new stmd.HtmlRenderer();
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function () {
-    if(xhr.readyState === 4 && xhr.status === 200) {
-      display(xhr);
+  var project_file = new XMLHttpRequest();
+  project_file.onreadystatechange = function () {
+    if(project_file.readyState === 4 && project_file.status === 200) {
+      display(project_file);
     }
   };
 
 //Render inside "#projects"
 
-  function display(xhr) {
-    var parsed = reader.parse(xhr.responseText);
+  function display(project_file) {
+    var parsed = reader.parse(project_file.responseText);
     var content = writer.renderBlock(parsed);
     document.getElementById('projects').innerHTML = content;
     
 //Add classes to rendered tree
-
-  $(document).ready(function(){
 
   $('.article').children(":first-child").addClass("title proxima");
   $('.article').find("ul:first").addClass("main");
@@ -128,9 +126,6 @@ $('.filter').click(function(){
 
   });
 
-});
-
-
 function projectAnim(){
 
 var title = $('.active').find(".title");
@@ -222,6 +217,6 @@ var cachedWidth = $(window).width();
 
   }
 
-  xhr.open('GET', file);
-  xhr.send();
+  project_file.open('GET', file);
+  project_file.send();
 })();
