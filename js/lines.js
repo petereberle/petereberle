@@ -15,7 +15,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(7);
+	frameRate(6);
 	fadeIn = 0;
 	start();
 }
@@ -49,7 +49,7 @@ function draw() {
 	//restart after 40 secs
 
 	if (currentTime > startTime + runTime){
-		
+
 				clear();
 				start();
 
