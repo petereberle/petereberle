@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
 
-	stroke(87, 90, 94, fadeIn);
+	stroke(87, 89, 91, fadeIn);
 
 	let perspectiveX1 = parentWidth*.65;
 	let perspectiveX2 = parentWidth*.85;
