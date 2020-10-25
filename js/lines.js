@@ -39,7 +39,7 @@ function draw() {
 
 	if (fadeIn < 0) fadeAmount = 1;
 
-	if (fadeIn > 70) fadeAmount = -5;
+	if (fadeIn > 60) fadeAmount = -5;
 
 	fadeIn += fadeAmount;
 
