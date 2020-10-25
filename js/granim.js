@@ -1,5 +1,5 @@
 var granimInstance = new Granim({
-    element: '#home',
+    element: '#gradient_BG',
     direction: 'diagonal',
     isPausedWhenNotInView: true,
     states : {

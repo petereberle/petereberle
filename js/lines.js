@@ -17,12 +17,15 @@ function setup() {
 
 function draw() {
 
-	stroke(255, 255, 255, 30);
+	stroke(104, 103, 109, 20);
+
+	let perspectiveX1 = parentWidth*.45;
+	let perspectiveX2 = parentWidth*.55;
 
 	let l = random(parentWidth);
-	let i = random(parentHeight);
-	let n = random(parentWidth);
-	let e = random(parentHeight);
+	let i = 0;
+	let n = random(perspectiveX1, perspectiveX2);
+	let e = parentHeight;
 	line(l,i,n,e);
 
 	var currentTime = millis();

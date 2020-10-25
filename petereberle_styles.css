@@ -164,7 +164,7 @@ li{
 .menu_item{
 	display:block;
 	background-image:unset;
-	color:#ffffff;
+	color:#3b3b43;
 	margin-right:20px;
 	padding-top: 12px;
 }
@@ -506,11 +506,11 @@ li{
 	height:100%;
 	width:100%;
 	z-index:-2;
-	background: linear-gradient(-50deg, #FBAD18, #f4642a, #81cbeb, #f46626, #EA9B1C, #FBAD18);
+	/*background: linear-gradient(-50deg, #FBAD18, #f4642a, #81cbeb, #f46626, #EA9B1C, #FBAD18);
 	animation: rotate_grad 20s ease infinite;
-	background-size:400% 400%;
+	background-size:400% 400%;*/
 }
-
+/*
 @keyframes rotate_grad{
 
  	0% {
@@ -523,7 +523,7 @@ li{
         background-position: 0% 50%;
         }
 }
-
+*/
 /*end gradient background*/
 
 
