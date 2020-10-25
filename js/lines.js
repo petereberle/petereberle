@@ -44,13 +44,16 @@ function draw() {
 	fadeIn += fadeAmount;
 
 	var currentTime = millis();
-	var runTime = 40 * 1000;
+	var runTime = 5 * 1000;
 
 	//restart after 40 secs
 
 	if (currentTime > startTime + runTime){
-		clear();
-		start();
+		
+		TweenLite.to("#sketch-div", .5, {opacity: '0'});
+				clear();
+				start();
+
 	}
 }
 
@@ -67,6 +70,3 @@ resizeCanvas(parentWidth, parentHeight);
 }
 
 //fade out canvas on complete
-//function fadeOut(){
-//TweenLite.to("#sketch-div", .5, {opacity: '0'});
-//}
