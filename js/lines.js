@@ -50,7 +50,6 @@ function draw() {
 
 	if (currentTime > startTime + runTime){
 		
-		TweenLite.to("#sketch-div", .5, {opacity: '0'});
 				clear();
 				start();
 
