@@ -59,13 +59,22 @@ function draw() {
 var parentWidth = document.querySelector(".heading_block").offsetWidth;
 var parentHeight = document.querySelector(".heading_block").offsetHeight;
 
+var cachedWidth = $(window).width();
+
 function windowResized() {
 
 parentWidth = document.querySelector(".heading_block").offsetWidth;
 parentHeight = document.querySelector(".heading_block").offsetHeight;
 
-resizeCanvas(parentWidth, parentHeight);
+var newWidth = $(window).width();
+        
+        if(newWidth !== cachedWidth){  
+
+         resizeCanvas(parentWidth, parentHeight);
+
+         var windowWidth = $(window).width();
+
+    	cachedWidth = newWidth;
+    }
 
 }
-
-//fade out canvas on complete
