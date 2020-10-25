@@ -44,7 +44,7 @@ function draw() {
 	fadeIn += fadeAmount;
 
 	var currentTime = millis();
-	var runTime = 5 * 1000;
+	var runTime = 45 * 1000;
 
 	//restart after 40 secs
 
