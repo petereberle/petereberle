@@ -4,8 +4,8 @@ function start(){
 	startTime = millis()
 }
 
-//var fadeIn;
-//var fadeAmount = 1;
+var fadeIn;
+var fadeAmount = 1;
 var cachedWidth = $(window).width();
 
 //var r, g, b;
@@ -21,7 +21,7 @@ function setup() {
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
 	frameRate(5);
-	//fadeIn = 0;
+	fadeIn = 20;
 	start();
 	//r = random(96, 116);
 	//g = random(99, 119);
@@ -51,18 +51,18 @@ function draw() {
 			perspectiveX3 = 0;
 			perspectiveX4 = parentWidth;
 
-			//if (fadeIn < 0) fadeAmount = 1;
+			if (fadeIn < 0) fadeAmount = 1;
 
-			//if (fadeIn > 50) fadeAmount = -10;
+			if (fadeIn > 50) fadeAmount = -10;
 
 	//} else{
 
-			//if (fadeIn < 0) fadeAmount = 1;
+			if (fadeIn < 0) fadeAmount = 1;
 
-			//if (fadeIn > 70) fadeAmount = -10;
+			if (fadeIn > 70) fadeAmount = -10;
 	}
 
-	stroke(106, 109, 112, opacity);
+	stroke(106, 109, 112, fadeIn);
 
 	let l = random(perspectiveX3, perspectiveX4);
 	let i = perspectiveY1;
