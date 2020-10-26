@@ -256,7 +256,7 @@
 
 # Excavation
 * ![](images/Excavation.jpg)
-* **Materials:** Oil, collected soils on Canvas
+* **Materials:** Oil, collected soils on canvas
 
 <!--secondary images-->
 
