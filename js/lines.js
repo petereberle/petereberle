@@ -1,6 +1,5 @@
-let inc;
 //created by: https://editor.p5js.org/arthurrc/sketches
-
+let inc;
 let scl;
 let cols;
 let rows;
