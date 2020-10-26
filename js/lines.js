@@ -8,6 +8,8 @@ var fadeIn;
 var fadeAmount = 1;
 var cachedWidth = $(window).width();
 
+var r, g, b;
+
 
 function setup() {
 
@@ -16,25 +18,31 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(4);
+	frameRate(10);
 	fadeIn = 0;
 	start();
+	r = random(96, 116);
+	g = random(99, 119);
+	b = random(102, 122);
 }
 
 function draw() {
 
-	stroke(96, 99, 102, fadeIn);
+	stroke(r, g, b, fadeIn);
 
-	let perspectiveX1 = parentWidth*.7;
+	let perspectiveX1 = parentWidth*.6;
 	let perspectiveX2 = parentWidth;
 
-	let perspectiveX3 = parentWidth*.79;
+	let perspectiveX3 = parentWidth*.7;
 	let perspectiveX4 = parentWidth;
+
+	//let randomParent = random(parentWidth*.6, parentWidth);
+
+	let perspectiveY1 = 0;
 
 	if(cachedWidth < 900){
 
-			perspectiveX1 = parentWidth*.75
-			perspectiveX3 = parentWidth*.95;
+			randomParent = random(parentWidth*.8, parentWidth);
 
 			if (fadeIn < 0) fadeAmount = 1;
 
@@ -47,9 +55,9 @@ function draw() {
 			if (fadeIn > 70) fadeAmount = -5;
 	}
 
-	let l = random(perspectiveX1, perspectiveX2);
-	let i = 0;
-	let n = random(perspectiveX3, perspectiveX4);
+	let l = random(perspectiveX3, perspectiveX4);
+	let i = perspectiveY1;
+	let n = random(perspectiveX1, perspectiveX2);
 	let e = parentHeight;
 	
 	line(l,i,n,e);
