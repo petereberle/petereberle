@@ -252,3 +252,18 @@
 ## art
 
 </div>
+<div class="article">
+
+# Stratigraphs
+* ![](images/Stratigraps_dyptych,oil.jpg)
+* Environmental abstractions, impasto series
+	
+	**Materials:** Oil on canvas
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
