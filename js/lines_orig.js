@@ -21,14 +21,14 @@ function setup() {
 	frameRate(3);
 	fadeIn = 0;
 	start();
-	r = random(96, 116);
-	g = random(99, 119);
-	b = random(102, 122);
+	//r = random(96, 116);
+	//g = random(99, 119);
+	//b = random(102, 122);
 }
 
 function draw() {
 
-	stroke(r, g, b, fadeIn);
+	stroke(106, 109, 112, fadeIn);
 
 	let perspectiveX1 = parentWidth*.6;
 	let perspectiveX2 = parentWidth;
