@@ -8,7 +8,9 @@ function start(){
 //var fadeAmount = 1;
 var cachedWidth = $(window).width();
 
-var r, g, b;
+//var r, g, b;
+
+var opaciity;
 
 
 function setup() {
@@ -24,11 +26,10 @@ function setup() {
 	//r = random(96, 116);
 	//g = random(99, 119);
 	//b = random(102, 122);
+	opacity = 50;
 }
 
 function draw() {
-
-	stroke(106, 109, 112, 50);
 
 	let perspectiveX1 = parentWidth*.75;
 	let perspectiveX2 = parentWidth*.8;
@@ -41,6 +42,8 @@ function draw() {
 	let perspectiveY1 = 0;
 
 	if(cachedWidth < 900){
+
+			opacity = 40;
 
 			perspectiveX1 = 0;
 			perspectiveX2 = parentWidth;
@@ -58,6 +61,8 @@ function draw() {
 
 			//if (fadeIn > 70) fadeAmount = -10;
 	}
+
+	stroke(106, 109, 112, opacity);
 
 	let l = random(perspectiveX3, perspectiveX4);
 	let i = perspectiveY1;
