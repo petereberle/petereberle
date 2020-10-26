@@ -222,8 +222,8 @@
 </div>
 <div class="article">
 
-# Slip
-* ![](images/Slip_oil.jpg)
+# Cutway
+* ![](images/Cutway_oil_on_canvas.jpg)
 * Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
@@ -295,8 +295,8 @@
 </div>
 <div class="article">
 
-# Cutway
-* ![](images/Cutway_oil_on_canvas.jpg)
+# Slip
+* ![](images/Slip_oil.jpg)
 * Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
