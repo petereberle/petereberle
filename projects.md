@@ -222,6 +222,21 @@
 </div>
 <div class="article">
 
+# Slip
+* ![](images/Slip_oil.jpg)
+* Environmental abstractions, impasto series
+	
+	**Materials:** Oil on canvas
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Watch until the end
 * ![](images/watch_until_the_end.gif)
 * Experimental still photo, video and digital painting montage with generated sound. 
