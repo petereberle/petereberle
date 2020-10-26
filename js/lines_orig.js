@@ -42,7 +42,11 @@ function draw() {
 
 	if(cachedWidth < 900){
 
-			randomParent = random(parentWidth*.8, parentWidth);
+			perspectiveX1 = 0;
+			perspectiveX2 = parentWidth;
+
+			perspectiveX3 = 0;
+			perspectiveX4 = parentWidth;
 
 			if (fadeIn < 0) fadeAmount = 1;
 
