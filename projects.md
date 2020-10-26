@@ -237,3 +237,18 @@
 ## art
 
 </div>
+<div class="article">
+
+# Cutway
+* ![](images/Cutway_oil_on_canvas.jpg)
+* Oil on canvas
+	
+	**Materials:** Oil on canvas
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
