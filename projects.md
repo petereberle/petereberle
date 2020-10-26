@@ -48,7 +48,7 @@
 
 # Arts in Health
 * ![](images/aih_fin.jpg)
-* [Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local intiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla, Washington. In partnership with Providence St. Mary Medical Center, Augusta recruited other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
+* [Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local initiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla, Washington. In partnership with Providence St. Mary Medical Center, Augusta recruited other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
 
 	I built a static page and UI on artwalla.com to serve as the organization's website, tutorial archive and donation portal.
 
@@ -88,7 +88,7 @@
 
 # blue moon vol. 33
 * ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digial Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font heirarchy and integrated graphics.
+* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digital Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font hierarchy and integrated graphics.
 
 	**Technologies:** InDesign, Illustrator, Photoshop
 
@@ -113,7 +113,7 @@
 * ![](images/art-tour_fin.jpg)
 * ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
 
-	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to socia media that accompanied the debut of these pages.
+	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to social media that accompanied the debut of these pages.
 
 	**Technologies:** HTML, CSS, Javascript
 
@@ -168,7 +168,7 @@
 * ![](images/Builtscape_lino.jpg)
 * *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
 
-	**Materials:** lineoleum relief
+	**Materials:** linoleum relief
 
 <!--secondary images-->
 
@@ -241,7 +241,7 @@
 
 # Cutway
 * ![](images/Cutway_oil_on_canvas.jpg)
-* Oil on canvas
+* Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
 
