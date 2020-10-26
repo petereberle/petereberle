@@ -282,6 +282,19 @@
 </div>
 <div class="article">
 
+# Washing
+* ![](images/Wash_Water_detergent_ magazine.GIF)
+* **Materials:** Scanner, magazine, detergent, water, pebbles
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Cutway
 * ![](images/Cutway_oil_on_canvas.jpg)
 * Environmental abstractions, impasto series
