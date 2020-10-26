@@ -28,7 +28,7 @@ function setup() {
 
 function draw() {
 
-	stroke(106, 109, 112, 35);
+	stroke(106, 109, 112, 50);
 
 	let perspectiveX1 = parentWidth*.6;
 	let perspectiveX2 = parentWidth;
