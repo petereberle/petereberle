@@ -30,11 +30,11 @@ function draw() {
 
 	stroke(106, 109, 112, 50);
 
-	let perspectiveX1 = parentWidth*.6;
-	let perspectiveX2 = parentWidth;
+	let perspectiveX1 = parentWidth*.75;
+	let perspectiveX2 = parentWidth*.8;
 
-	let perspectiveX3 = parentWidth*.7;
-	let perspectiveX4 = parentWidth;
+	let perspectiveX3 = parentWidth*.70;
+	let perspectiveX4 = parentWidth*.85;
 
 	//let randomParent = random(parentWidth*.6, parentWidth);
 
@@ -61,7 +61,7 @@ function draw() {
 
 	let l = random(perspectiveX3, perspectiveX4);
 	let i = perspectiveY1;
-	let n = random(perspectiveX1, perspectiveX2);
+	let n = random(perspectiveX3, perspectiveX4);
 	let e = parentHeight;
 	
 	line(l,i,n,e);
