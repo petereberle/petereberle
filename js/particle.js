@@ -1,3 +1,5 @@
+//created by: https://editor.p5js.org/arthurrc/sketches
+
 function Particle() {
   this.pos = createVector(random(width), random(height));
   this.vel = createVector(0, 0);
