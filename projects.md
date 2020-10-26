@@ -283,7 +283,7 @@
 <div class="article">
 
 # Washing
-* ![](images/Wash_Water_detergent_ magazine.GIF)
+* ![](images/Wash_Water_detergent_magazine.GIF)
 * **Materials:** Scanner, magazine, detergent, water, pebbles
 
 <!--secondary images-->
