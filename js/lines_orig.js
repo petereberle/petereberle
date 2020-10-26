@@ -18,7 +18,7 @@ function setup() {
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(6);
+	frameRate(3);
 	fadeIn = 0;
 	start();
 	r = random(96, 116);
