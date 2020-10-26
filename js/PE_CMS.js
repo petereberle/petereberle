@@ -100,8 +100,11 @@ $('.filter').click(function(){
 
   $('.article').click(function(){
 
+      //Scroll to
+      $(window).scrollTo(document.getElementById("project"), 1500, {easing: 'easeInOutQuart'});
+      //Add active Class
       $(this).addClass("active");
-
+      //If not clicked, remove active class
       $('.article').not(this).removeClass("active");
 
       $('#projects').css({'display' : 'block'});
@@ -121,10 +124,6 @@ $('.filter').click(function(){
       $(this).css({'display' : 'block'});
 
     }
-
-    $(window).scrollTo(document.getElementById("project"), 1500, {
-    easing: 'easeInOutQuart'
-    });
 
   });
 
