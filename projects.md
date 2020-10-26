@@ -282,7 +282,7 @@
 </div>
 <div class="article">
 
-# Washing
+# Wash
 * ![](images/Wash_Water_detergent_magazine.GIF)
 * **Materials:** Scanner, magazine, detergent, water, pebbles
 
