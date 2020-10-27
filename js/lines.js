@@ -61,10 +61,8 @@ function draw() {
 	//restart after 40 secs
 
 	if (currentTime > startTime + runTime){
-
 				clear();
 				start();
-
 	}
 
   }
