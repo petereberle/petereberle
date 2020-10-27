@@ -142,6 +142,22 @@
 </div>
 <div class="article">
 
+# Writers at Harriman
+* ![](images/Writers_at_Harriman_system.jpg)
+* Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/) looking for a clever approach to their business card, envelope and letter head graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
+
+<!--secondary images-->
+
+* Selected Pages
+* ![](images/Writers_at_Harriman_envelope.jpg)
+* Envelope system
+<!--put category tag here-->
+
+## design
+
+</div>
+<div class="article">
+
 # Dia de Los Muertos
 * ![](images/wallawalladdlm.com_fin.jpg)
 * The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
