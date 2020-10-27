@@ -111,7 +111,7 @@ $('.filter').click(function(){
       
     var sectionTitle = $('#section_menu').children(":first-child");
 
-      TweenLite.to(sectionTitle, .5, {opacity: '0', marginLeft: "-600px", height: "0", position: "absolute"});
+      TweenLite.to(sectionTitle, .5, {autoAlpha: '0', marginLeft: "-600px", height: "0", position: "absolute"});
 
       $('.title').removeClass("proxima");
 
@@ -141,7 +141,7 @@ var windowWidth = $(window).width();
         TweenLite.fromTo('.active', .5, {width:"31;%"}, {width:"100%"});
       }
 
-  TweenLite.fromTo('#close', .2, {visibility:"hidden", opacity:"0", marginTop: "0"}, {visibility:"visible", opacity:"1", marginTop: "20px"});
+  TweenLite.fromTo('#close', .2, {visibility:"hidden", autoAlpha:"0", marginTop: "0"}, {visibility:"visible", autoAlpha:"1", marginTop: "20px"});
 
   // On click close
 
@@ -174,7 +174,7 @@ function closeProject (){
     TweenLite.fromTo('.active', .5, {width:"100%"}, {width:"31%"});
   }
 
-    TweenLite.fromTo('#close', .2, {visibility:"visible", opacity:"1", marginTop: "20"}, {visibility:"hidden", opacity:"0", marginTop: "0"});
+    TweenLite.fromTo('#close', .2, {visibility:"visible", autoAlpha:"1", marginTop: "20"}, {visibility:"hidden", autoAlpha:"0", marginTop: "0"});
 
   //Reconstruct Styles
 
@@ -186,7 +186,7 @@ function closeProject (){
 
    var sectionTitle = $('#section_menu').children(":first-child");
 
-    TweenLite.to(sectionTitle, 1, {opacity: '1', marginLeft: "0", height: "unset", position: "relative"});
+    TweenLite.to(sectionTitle, 1, {autoAlpha: '1', marginLeft: "0", height: "unset", position: "relative"});
 
    $('.title').addClass("proxima");
 

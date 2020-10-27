@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
 
-    TweenMax.from("#down_scroll_wrapper", .75, {opacity: '0', marginTop: '-20px', ease:Power2.easeInOut, repeat:0, delay:1.25});
+    TweenMax.from("#down_scroll_wrapper", .75, {autoAlpha: '0', marginTop: '-20px', ease:Power2.easeInOut, repeat:0, delay:1.25});
 
   });
 
@@ -27,14 +27,14 @@ $(document).ready(function(){
 		    $('.menu_wrapper').addClass('scroll');
        TweenLite.to(".menu_wrapper", .5, {backgroundColor: "#ffffff", boxShadow: "0px 0px 8px 0px rgba(0,0,0,0.2)"});
        TweenLite.to(".menu_item", .5, {color:"#3b3b43"});
-       TweenLite.to("#menu_right", .5, {opacity: "1"});
-       TweenLite.to("#down_scroll_wrapper", .5, {opacity: '0'});
+       TweenLite.to("#menu_right", .5, {autoAlpha: "1"});
+       TweenLite.to("#down_scroll_wrapper", .5, {autoAlpha: '0'});
      } else { 
         $('.menu_wrapper').removeClass('scroll');
         TweenLite.to(".menu_wrapper", .5, {backgroundColor: "transparent", boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)"});
         TweenLite.to(".menu_item", .5, {color:"#ffffff"});
-        TweenLite.to("#menu_right", .5, {opacity: "0"});
-        TweenLite.to("#down_scroll_wrapper", .5, {opacity: '1'});
+        TweenLite.to("#menu_right", .5, {autoAlpha: "0"});
+        TweenLite.to("#down_scroll_wrapper", .5, {autoAlpha: '1'});
       }
 
       }
@@ -63,7 +63,7 @@ function removeProp() {
 
   if (name.length == 0 | senderEmail.length == 0){
   
-    tlx.staggerTo("#error_message", .5, {display: 'block', opacity: '1', delay:.5}, 0.05);
+    tlx.staggerTo("#error_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05);
   
   }else{
 
@@ -79,7 +79,7 @@ function removeProp() {
   Subject : 'Contact Form | peteeberle.com',
   Body : 'Name:' + ' ' + name + '<html><br></html>' + 'Email:' + ' ' + senderEmail + '<html><br></html>' + 'Message:' + ' ' + senderMessage,
   }).then(
-    tly.staggerTo("#success_message", .5, {display: 'block', opacity: '1', delay:.5}, 0.05)
+    tly.staggerTo("#success_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05)
   );
 
   }
