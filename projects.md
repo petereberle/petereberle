@@ -254,9 +254,11 @@
 </div>
 <div class="article">
 
-# Excavation
-* ![](images/Excavation.jpg)
-* **Materials:** Oil, collected soils on canvas
+# Stratigraphs
+* ![](images/Stratigraps_dyptych,oil.jpg)
+* Environmental abstractions, impasto series
+	
+	**Materials:** Oil on canvas
 
 <!--secondary images-->
 
@@ -310,11 +312,9 @@
 </div>
 <div class="article">
 
-# Stratigraphs
-* ![](images/Stratigraps_dyptych,oil.jpg)
-* Environmental abstractions, impasto series
-	
-	**Materials:** Oil on canvas
+# Caustic Accretion
+* ![](images/Caustic_Accretion_oil.jpg)
+* **Materials:** Oil on canvas
 
 <!--secondary images-->
 
@@ -325,9 +325,9 @@
 </div>
 <div class="article">
 
-# Caustic Accretion
-* ![](images/Caustic_Accretion_oil.jpg)
-* **Materials:** Oil on canvas
+# Excavation
+* ![](images/Excavation.jpg)
+* **Materials:** Oil, collected soils on canvas
 
 <!--secondary images-->
 
