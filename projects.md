@@ -181,13 +181,13 @@
 <div class="article">
 
 # BAMP
-* ![](images/Writers_at_Harriman_system.jpg)
+* ![](images/bamp_main.jpg)
 * [BAMP (Boise All Ages Movement Project)](http://www.boiseallagesproject.org/) is a nonprofit dedicated to establishing an all-ages, inclusive community space and music/arts venue. BAMP asked [One Stone's](https://onestone.org/) student design interns to create a new logo that would better capture the energy of their growing organization. The final image is collaboration between myself and another student intern.
 
 <!--secondary images-->
 
 * All prosposals
-* ![](images/bamp_main.jpg)
+* ![](images/BAMP_all_concepts.png)
 
 <!--put category tag here-->
 
