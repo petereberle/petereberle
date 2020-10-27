@@ -144,7 +144,7 @@
 
 # Writers at Harriman
 * ![](images/Writers_at_Harriman_system.jpg)
-* Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/) looking for a clever approach to their business card, envelope and letter head graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
+* Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/) looking for a clever approach to their business card, envelope and letterhead graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
 
 <!--secondary images-->
 
