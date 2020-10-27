@@ -186,9 +186,6 @@
 
 <!--secondary images-->
 
-* All proposals
-* ![](images/BAMP_all_concepts.png)
-
 <!--put category tag here-->
 
 ## design
