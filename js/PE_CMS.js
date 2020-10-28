@@ -56,10 +56,17 @@ $('.tag').each(function(){
 
       var innerYear = yearExists.html();
 
-      console.log(innerYear);
+      if(innerYear !== 'no year'){
 
       yearExists.html(innerYear + " | " + value);
 
+    }
+
+    if(innerYear !== 'no year'){
+
+      yearExists.css('display' : 'none');
+
+    }
 
     tagArray.push(value.split(' ')[0]);
 
