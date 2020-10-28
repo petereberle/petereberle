@@ -64,7 +64,7 @@ $('.tag').each(function(){
 
     if(innerYear !== 'no year'){
 
-      yearExists.css('display' : 'none');
+      yearExists.css({'display' : 'none'});
 
     }
 
