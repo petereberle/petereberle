@@ -12,7 +12,7 @@
 
 	<!--secondary images-->
 
-* <!--![](image_URL)-->
+* <!--![](image_URL)--> Secondary Image
 * ....
 
 	<!--put category tag here-->
