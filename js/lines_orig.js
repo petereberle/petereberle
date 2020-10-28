@@ -21,12 +21,12 @@ function setup() {
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
 	frameRate(5);
-	fadeIn = 20;
+	fadeIn = 30;
 	start();
 	//r = random(96, 116);
 	//g = random(99, 119);
 	//b = random(102, 122);
-	opacity = 50;
+	
 }
 
 function draw() {
@@ -42,8 +42,6 @@ function draw() {
 	let perspectiveY1 = 0;
 
 	if(cachedWidth < 900){
-
-			opacity = 40;
 
 			perspectiveX1 = 0;
 			perspectiveX2 = parentWidth;
