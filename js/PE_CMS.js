@@ -57,7 +57,7 @@ $('.tag').each(function(){
 
       var innerYear = yearExists.html();
 
-      yearExists.innerHTML += innerYear "|" value;
+      yearExists.innerHTML += innerYear + " | " + value;
 
    }
 
