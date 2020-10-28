@@ -1,8 +1,36 @@
+<!--Peter Eberle Project Markdown File 
+
+	Rules:
+
+	<div class="article">
+
+	# Post title. Appears in project overview
+	* Main project image. Appears in project overview
+	* Year. Type "no year" to hide in client display
+
+	--indent-- Main description (second <li> of description)
+
+	--indent-- Main description next paragraph (third(...) <li> of description)
+
+	--secondary images---
+
+	* ![](image_URL)
+	* ....
+
+	--put category tag here--
+
+	## tag
+
+	</div>
+
+-->
 <div class="article">
 
 # ArtWalla
 * ![](images/artwalla.com_fin.jpg)
-* [ArtWalla](https://artwalla.com/) was in need a major facelift to their organization and membership site. I created a custom theme and information organizing strategy to update their web presence and provide an easy interface for ArtWalla members to access their online profiles. The custom theme integrates with the pre-existing WildApricot membership platform to fetch and display member information.
+* 2019 - 2020
+
+	[ArtWalla](https://artwalla.com/) was in need a major facelift to their organization and membership site. I created a custom theme and information organizing strategy to update their web presence and provide an easy interface for ArtWalla members to access their online profiles. The custom theme integrates with the pre-existing WildApricot membership platform to fetch and display member information.
 
 	After implementing the new site, ArtWalla saw an increase in site traffic and membership applications performed online.
 	
@@ -26,7 +54,9 @@
 
 # ArtSquared
 * ![](images/artsquaredwallawalla.com_fin.jpg)
-* [ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla decided not to host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
+* 2020
+
+	[ArtSquared](https://artsquaredwallawalla.com/) is an annual community art show and sale that serves as [ArtWalla's](https://artwalla.com/) primary fundraiser. Due to COVID-19 guidelines, ArtWalla decided not to host a physical event, so I was asked to create a standalone online store to showcase 130 participating artists. I worked closely with the ArtSquared committee to translate the hallmarks of the annual event into a virtual experience.
 
 	We decided that the site must be unique to ArtSquared, easy to use, and remarkable. To that end, finding the right platform would make all the difference. I selected Wordpress with Woocommerce for its extensibility and vast plugin library. The site runs on a custom child theme paired with Elementor's editor UI for easy content management. 
 
@@ -48,7 +78,9 @@
 
 # Arts in Health
 * ![](images/aih_fin.jpg)
-* [Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local initiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla, Washington. In partnership with Providence St. Mary Medical Center, Augusta recruited other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
+* 2020
+
+	[Arts in Health: First Aid Art Kits](https://artwalla.com/artshealth) is a local initiative founded by [Augusta Sparks Farnum](http://augustasparks.com), an artist in Walla Walla, Washington. In partnership with Providence St. Mary Medical Center, Augusta recruited other local artists to make art kits and prompts for COVID-19 patients in hospital and home quarantine. She approached ArtWalla to create an online component to house the video portion of the art kits.
 
 	I built a static page and UI on artwalla.com to serve as the organization's website, tutorial archive and donation portal.
 
@@ -70,7 +102,9 @@
 
 # ArtWalla Brochure
 * ![](images/ArtWalla_Brochure_render_2.jpg)
-* Asymmetrical tri-fold brochure created for [ArtWalla's](https://artwalla.com) First Friday Art Tour. Intended to introduce first time visitors to downtown public art works and ArtWalla's event programming. 
+* 2020
+
+	Asymmetrical tri-fold brochure created for [ArtWalla's](https://artwalla.com) First Friday Art Tour. Intended to introduce first time visitors to downtown public art works and ArtWalla's event programming. 
 
 <!--secondary images-->
 
@@ -88,7 +122,9 @@
 
 # blue moon vol. 33
 * ![](images/Bluemoon_cover_shot.jpg)
-* "blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digital Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font hierarchy and integrated graphics.
+* 2020
+
+	"blue moon" is a Whitman College art and literature magazine produced by student volunteers. I served as Layout & Digital Media Editor during the 2019-2020 academic year. During layout week, I coordinated a team of student editors and staff members to build volume 33 in Adobe InDesign. Together, we redesigned the magazine's layout, font hierarchy and integrated graphics.
 
 	**Technologies:** InDesign, Illustrator, Photoshop
 
@@ -111,7 +147,9 @@
 
 # ArtWalla Art Tour
 * ![](images/art-tour_fin.jpg)
-* ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
+* 2020
+
+	ArtWalla's [First Friday Art Tour](https://artwalla.com/art-tour) is a monthly event from April through October. One of the tour's highlights is an ArtWalla member PopUp show that features their recent work. However, due to COVID-19 guidelines, ArtWalla had to transition to a virtual event.
 
 	To make the leap to an all virtual event, I created a simple filtered grid index and individual pages to showcase each artist. I also streamed live artist talks to social media that accompanied the debut of these pages.
 
@@ -127,7 +165,9 @@
 
 # peteeberle.com
 * ![](images/peteeberle.com_fin.jpg)
-* My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file located in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side.
+* 2020
+
+	My portfolio site is a static HTML page married to a handcrafted Javascript CMS that parses and renders a markdown text file located in my Github repository. The simple markdown file contains my project posts and their unique tags, which generate filter options on the client side.
 
 	Parsing is accomplished by integrating the [CommonMark JS library](https://github.com/commonmark/commonmark.js) created by John MacFarlane.
 
@@ -144,7 +184,7 @@
 
 # Writers at Harriman
 * ![](images/Writers_at_Harriman_system.jpg)
-* YEAR TEST
+* 2016
 
 	Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/) looking for a clever approach to their business card, envelope and letterhead graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
 
@@ -162,7 +202,9 @@
 
 # Dia de Los Muertos
 * ![](images/wallawalladdlm.com_fin.jpg)
-* The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
+* 2019
+	
+	The [Dia de Los Muertos Festival](https://www.wallawalladdlm.com/) is annual event in downtown Walla Walla, Washington, that celebrates the Latin American tradition of its namesake. I worked with the festival coordinator, Katy Rizzuti, to research a site builder that would allow her to easily update content every year the festival was held. Katy asked that I use Squarespace because of its simple admin interface.
 
 	Since the festival spanned two days and different locations, I prioritized easy, clear navigation. I also created custom graphics and icons to deliver a unique art direction.
 
@@ -184,7 +226,9 @@
 
 # BAMP
 * ![](images/bamp_main.jpg)
-* [BAMP (Boise All Ages Movement Project)](http://www.boiseallagesproject.org/) is a nonprofit dedicated to establishing an all-ages, inclusive community space and music venue. BAMP asked [One Stone's](https://onestone.org/) student design interns to create a new logo that would better capture the energy of their growing organization. The final image is collaboration between myself and another student intern.
+* 2016
+	
+	[BAMP (Boise All Ages Movement Project)](http://www.boiseallagesproject.org/) is a nonprofit dedicated to establishing an all-ages, inclusive community space and music venue. BAMP asked [One Stone's](https://onestone.org/) student design interns to create a new logo that would better capture the energy of their growing organization. The final image is collaboration between myself and another student intern.
 
 <!--secondary images-->
 
@@ -197,7 +241,9 @@
 
 # Builtscape
 * ![](images/Builtscape_lino.jpg)
-* *Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
+* 2019
+	
+	*Builtscape* pilfers the traditional signifiers of romantic landscape paintings - billowing clouds, sharp mountain peaks, an upwards-oriented composition - and renders the final image from modular prints.
 
 	**Materials:** linoleum relief
 
@@ -212,7 +258,9 @@
 
 # Infographics
 * ![](images/IG_6.jpg)
-* Selected infographics designed to accompany Whitman Wire articles. Emphasized a creative and enticing approach to visualizing data.
+* 2016 - 2018
+
+	Selected infographics designed to accompany Whitman Wire articles. Emphasized a creative and enticing approach to visualizing data.
 
 <!--secondary images-->
 
@@ -231,7 +279,9 @@
 
 # Alluvium
 * ![](images/thesis_test.jpg)
-* At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
+* 2020
+	
+	At the climax of our self-destructive relationship with nonhuman sites and bodies, *Alluvium* recalls a dissociated image of a floodplain, a source of vital soils and nourishing waters, and renders a barren, facsimiled landscape in its place. Echoes of topographic and stratigraphic systems are reproduced through the precise logic of industrial cement casting, a process designed to cover swaths of excavated land in a repeated rock face or texture, camouflaging inherent destruction. With its contrived technique laid bare, fallible, and delicate, Alluvium craves a new tenderness, if possible, between humans and nature.
 
 	*Alluvium* was exhibited in the [Whitman College 2020 Virtual Senior Art Thesis Show](https://sheehangallerythesisshow2020.com). The original project plans were intended for large scale installation in the Sheehan Gallery, but due to the advent of COVID-19 campus shutdowns, I completed a limited version of my thesis at home.
 
@@ -255,7 +305,9 @@
 
 # Cutway
 * ![](images/Cutway_oil_on_canvas.jpg)
-* Environmental abstractions, impasto series
+* 2020
+	
+	Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
 
@@ -270,7 +322,9 @@
 
 # Watch until the end
 * ![](images/watch_until_the_end.gif)
-* Experimental still photo, video and digital painting montage with generated sound. 
+* 2019
+	
+	Experimental still photo, video and digital painting montage with generated sound. 
 	
 	Watch the full composition below.
 
@@ -287,7 +341,9 @@
 
 # Stratigraphs
 * ![](images/Stratigraps_dyptych,oil.jpg)
-* Environmental abstractions, impasto series
+* 2019
+	
+	Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
 
@@ -302,7 +358,9 @@
 
 # Liquid Sleep
 * ![](images/Liquid_Sleep.jpg)
-* The early romantics established a relationship with nature that lingers in western society. This sustained perception isolates humanity at a vantage point well above animal and plant life. One can recall the Caspar David Friedrich painting, *Wanderer above the Sea of Fog*, where the romantic figure towers above a vast scape. The symbols involved position the human being as transcended from animal and the restraints of nature. They supply the individual with dominant agency. Sometimes, this will crystallize into a caretaker’s role where one works to preserve organic systems. More than likely, however, it gives permission to harmful culture and behavior, such as exploitative industry. My piece readdresses the relationship between human and nature with a conscious avoidance of romantic symbols. I chose to camouflage the human figure in a texture that clearly belongs to its surrounding biology. Similarly, the human figure rests in an asymmetric composition, indicating merely a presence and not a hierarchy. Its age also remains ambiguous - somewhere between infancy and infirmity. Often, the fear of death creates enough anxiety to maintain the transcended human as a mental object. This functions simultaneously with fluidics, recycling and growth, which are dealt with in the style and content of the piece. 
+* no year
+
+	The early romantics established a relationship with nature that lingers in western society. This sustained perception isolates humanity at a vantage point well above animal and plant life. One can recall the Caspar David Friedrich painting, *Wanderer above the Sea of Fog*, where the romantic figure towers above a vast scape. The symbols involved position the human being as transcended from animal and the restraints of nature. They supply the individual with dominant agency. Sometimes, this will crystallize into a caretaker’s role where one works to preserve organic systems. More than likely, however, it gives permission to harmful culture and behavior, such as exploitative industry. My piece readdresses the relationship between human and nature with a conscious avoidance of romantic symbols. I chose to camouflage the human figure in a texture that clearly belongs to its surrounding biology. Similarly, the human figure rests in an asymmetric composition, indicating merely a presence and not a hierarchy. Its age also remains ambiguous - somewhere between infancy and infirmity. Often, the fear of death creates enough anxiety to maintain the transcended human as a mental object. This functions simultaneously with fluidics, recycling and growth, which are dealt with in the style and content of the piece. 
 	
 	**Materials:** Woodblock relief
 
@@ -317,7 +375,9 @@
 
 # Wash
 * ![](images/Wash_Water_detergent_magazine.GIF)
-* **Materials:** Scanner, magazine, detergent, water, pebbles
+* 2018
+	
+	**Materials:** Scanner, magazine, detergent, water, pebbles
 
 <!--secondary images-->
 
@@ -330,7 +390,9 @@
 
 # Slip
 * ![](images/Slip_oil.jpg)
-* Environmental abstractions, impasto series
+* 2019
+	
+	Environmental abstractions, impasto series
 	
 	**Materials:** Oil on canvas
 
@@ -345,7 +407,9 @@
 
 # Caustic Accretion
 * ![](images/Caustic_Accretion_oil.jpg)
-* **Materials:** Oil on canvas
+* 2019
+
+	**Materials:** Oil on canvas
 
 <!--secondary images-->
 
@@ -358,7 +422,9 @@
 
 # Excavation
 * ![](images/Excavation.jpg)
-* **Materials:** Oil, collected soils on canvas
+* 2019
+
+	**Materials:** Oil, collected soils on canvas
 
 <!--secondary images-->
 
