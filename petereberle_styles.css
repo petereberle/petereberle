@@ -357,6 +357,10 @@ li{
 
 }
 
+.year{
+	font-weight:bolder;
+}
+
 .main{
 	width:100%;
 	height:100%;
