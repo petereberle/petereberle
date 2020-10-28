@@ -58,7 +58,7 @@ $('.tag').each(function(){
 
       console.log(innerYear);
 
-      yearExists.innerHTML += innerYear + " | " + value;
+      yearExists.html(innerYear + " | " + value);
 
 
     tagArray.push(value.split(' ')[0]);
