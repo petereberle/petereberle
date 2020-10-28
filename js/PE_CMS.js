@@ -51,7 +51,7 @@ $('.tag').each(function(){
 
    $(this).parent('.article').addClass(value);
 
-   var yearExists = $(this).parent('.article').children(".year");
+   var yearExists = $(this).parent('.article').find(".year");
 
    if (yearExists){
 
