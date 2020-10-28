@@ -53,9 +53,13 @@ $('.tag').each(function(){
 
    var yearExists = $(this).parent('.article').find(".year");
 
+   console.log(yearExists);
+
    if (yearExists){
 
       var innerYear = yearExists.html();
+
+      console.log(innerYear);
 
       yearExists.innerHTML += innerYear + " | " + value;
 
