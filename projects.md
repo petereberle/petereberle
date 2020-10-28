@@ -1,30 +1,3 @@
-<!--Peter Eberle Project Markdown File 
-
-	Rules:
-
-	<div class="article">
-
-	# Post title. Appears in project overview
-	* Main project image. Appears in project overview
-	* Year. Type "no year" to hide in client display
-
-	--indent-- Main description (second <li> of description)
-
-	--indent-- Main description next paragraph (third(...) <li> of description)
-
-	--secondary images---
-
-	* ![](image_URL)
-	* ....
-
-	--put category tag here--
-
-	## tag
-
-	</div>
-
--->
-
 <div class="article">
 
 # ArtWalla
