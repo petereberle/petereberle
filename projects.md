@@ -160,7 +160,7 @@
 * ![](images/Writers_at_Harriman_system.jpg)
 * 2016
 
-	Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/) looking for a clever approach to their business card, envelope and letterhead graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
+	Branding system for Writers at Harriman, an educational program for young writers. Writers at Harriman approached [One Stone](https://onestone.org/two-birds) looking for a clever approach to their business card, envelope and letterhead graphics. The design intern team iterated through several mockups, and my proposal was accepted. The new business cards also function as bookmarks. 
 
 <!--secondary images-->
 
@@ -202,7 +202,7 @@
 * ![](images/bamp_main.jpg)
 * 2016
 	
-	[BAMP (Boise All Ages Movement Project)](http://www.boiseallagesproject.org/) is a nonprofit dedicated to establishing an all-ages, inclusive community space and music venue. BAMP asked [One Stone's](https://onestone.org/) student design interns to create a new logo that would better capture the energy of their growing organization. The final image is collaboration between myself and another student intern.
+	[BAMP (Boise All Ages Movement Project)](http://www.boiseallagesproject.org/) is a nonprofit dedicated to establishing an all-ages, inclusive community space and music venue. BAMP asked [One Stone's](https://onestone.org/two-birds) student design interns to create a new logo that would better capture the energy of their growing organization. The final image is collaboration between myself and another student intern.
 
 <!--secondary images-->
 
