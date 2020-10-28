@@ -32,6 +32,7 @@
   $('.article').find("ul:first").addClass("main");
   $('.main').children(":first-child").addClass("first");
   $('.first').next().addClass("description");
+  $('.description').children(":first-child").addClass("year");
   $('.first').find("img").addClass("card");
   $('.article').children().not(".main, .title, .proxima, h2").addClass("images");
   $('.images > li').addClass("alt");
@@ -50,6 +51,16 @@ $('.tag').each(function(){
 
    $(this).parent('.article').addClass(value);
 
+   var yearExists = $(this).parent('.article').children(".year");
+
+   if (yearExists){
+
+      var innerYear = yearExists.html();
+
+      yearExists.innerHTML(innerYear '|' value);
+
+   }
+
     tagArray.push(value.split(' ')[0]);
 
 });
@@ -66,6 +77,7 @@ console.log(uniqueTag);
     }
 
     $('#filters div:last').addClass("last");
+
 
 //Filter on click
 
