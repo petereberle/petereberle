@@ -51,16 +51,21 @@ $('.tag').each(function(){
 
    $(this).parent('.article').addClass(value);
 
+   //get <p class="year"> in all articles
+
    var yearExists = $(this).parent('.article').find(".year");
 
+   //append year with category
 
-      var innerYear = yearExists.html();
+   var innerYear = yearExists.html();
 
-      if(innerYear !== 'no year'){
+   if(innerYear !== 'no year'){
 
       yearExists.html(innerYear + " | " + value);
 
     }
+
+    //hide if "no year" is typed in markdown file
 
     if(innerYear == 'no year'){
 
