@@ -53,11 +53,13 @@ function removeProp() {
 
   }
 
-  function sendEmail() {
+var submitted = false;
 
-  var name = document.getElementById("senderName").value;
-  var senderEmail = document.getElementById("senderAddress").value;
-  var senderMessage = document.getElementById("senderMessage").value;
+$('#contact_form').on('submit', function(){
+
+  var name = document.getElementById("entry.1779284427").value;
+  var senderEmail = document.getElementById("entry.433919051").value;
+  var senderMessage = document.getElementById("entry.242520132").value;
   var tlx = new TimelineLite();
   var tly = new TimelineLite();
 
@@ -68,19 +70,11 @@ function removeProp() {
   }else{
 
   $('#error_message').css({'display' : 'none'});
-  document.getElementById("senderName").value = '';
-  document.getElementById("senderAddress").value = '';
-  document.getElementById("senderMessage").value = '';
+  document.getElementById("entry.1779284427").value = '';
+  document.getElementById("entry.433919051").value = '';
+  document.getElementById("entry.242520132").value = '';
 
-  Email.send({
-  SecureToken : 'c40bcb73-c046-4e76-aaca-339bd3fc6e38',
-  To : 'peteaeberle@gmail.com',
-  From : 'peteaeberle@gmail.com',
-  Subject : 'Contact Form | peteeberle.com',
-  Body : 'Name:' + ' ' + name + '<html><br></html>' + 'Email:' + ' ' + senderEmail + '<html><br></html>' + 'Message:' + ' ' + senderMessage,
-  }).then(
-    tly.staggerTo("#success_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05)
-  );
+  tly.staggerTo("#success_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05);
 
   }
-}
+});

@@ -107,16 +107,16 @@
 			<div id="newsletter_join" class="footer_flex">
 				<h1 class="footer_item">Contact Me</h1>
 					<!--form-->
-					<form method="post" id="newsletter_form">
-						<input type="text" onchange="removeProp()" placeholder="First and Last Name" class="newsletter_input" id="senderName">
-						<input type="text" onchange="removeProp()" placeholder="Email" class="newsletter_input" id="senderAddress">
-						<textarea class="newsletter_input" id="senderMessage" placeholder="Message" onchange="removeProp()"></textarea>
+					<form name="contact_form" id="contact_form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScI4lRfEJDnz6W2GPLxZuaAVLZ8ZoyTCsMKfX7JBYFOzRfjhw/formResponse?" target="fake_redirect" onsumbmit="submitted=true;">
+						<input type="text" onchange="removeProp()" placeholder="First and Last Name" name="entry.1779284427" class="newsletter_input" id="entry.1779284427">
+						<input type="text" onchange="removeProp()" placeholder="Email" name="entry.433919051" class="newsletter_input" id="entry.433919051">
+						<textarea class="newsletter_input" placeholder="Message" name="entry.242520132" id="entry.242520132" onchange="removeProp()"></textarea>
 						<p class="newsletter_field" id="error_message">Please enter your name and email correctly</p>
 						<p class="newsletter_field" id="success_message">Thank you! I'll be in touch soon.</p>
-						<a class="clear slide_btn footer_item" onclick="sendEmail()">
-						<div class="slide_text">Send</div>
-						</a>
+						<input class="clear slide_btn footer_item" id="submit" type="submit" value="Submit">
+						</input>
 					</form>
+				<iframe name="fake_redirect" id="fake_redirect" style="display:none;" onload="if(submitted) {}"></iframe>
 			</div>
 		</div>
 	</div>

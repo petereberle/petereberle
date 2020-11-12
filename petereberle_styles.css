@@ -140,6 +140,25 @@ li{
 	width:100%;
 }
 
+/*Input Submit*/
+
+input[type="submit" i] {
+    appearance: unset;
+    user-select: none;
+    white-space: pre;
+    align-items: unset;
+    text-align: center;
+    cursor: default;
+    color: unset;
+    background-color: unset;
+    box-sizing: unset;
+    padding: unset;
+    border-width: unset;
+    border-style: unset;
+    border-color: unset;
+    border-image: unset;
+}
+
 /*(4) Menu
 **************************/
 
@@ -598,7 +617,7 @@ li{
 
 /*Contact Form*/
 
-#newsletter_form {
+#contact_form {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -646,6 +665,14 @@ textarea{
 	display:none;
 	opacity:0;
 	color:black;
+}
+
+#submit{
+	cursor:pointer;
+}
+
+#fake_redirect{
+	display:none;
 }
 
 /*(10) Media Queries
