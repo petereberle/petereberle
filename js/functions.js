@@ -73,7 +73,7 @@ function removeProp() {
   document.getElementById("senderMessage").value = '';
 
   Email.send({
-  SecureToken : 'f1d7043d-561b-44f7-9bf2-532005760262',
+  SecureToken : 'c40bcb73-c046-4e76-aaca-339bd3fc6e38',
   To : 'peteaeberle@gmail.com',
   From : 'peteaeberle@gmail.com',
   Subject : 'Contact Form | peteeberle.com',
