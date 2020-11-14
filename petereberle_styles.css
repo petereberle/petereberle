@@ -651,7 +651,7 @@ textarea{
 	resize:vertical;
 }
 
-#senderMessage{
+#entry\.242520132{
 	height:100px;
 }
 
@@ -667,8 +667,9 @@ textarea{
 	color:black;
 }
 
-#submit{
+#send{
 	cursor:pointer;
+	letter-spacing: .1em;
 }
 
 #fake_redirect{

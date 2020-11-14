@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 //ON SCROLL EVENTS
 
-    $(document).ready(function(){
+$(document).ready(function(){
     
      window.onscroll = function () { resizeHeader(); };
 
@@ -55,13 +55,15 @@ function removeProp() {
 
 var submitted = false;
 
-$('#contact_form').on('submit', function(){
+$(document).ready(function(){
+  $('#contact_form').on("submit", function () {
 
-  var name = document.getElementById("entry.1779284427").value;
-  var senderEmail = document.getElementById("entry.433919051").value;
-  var senderMessage = document.getElementById("entry.242520132").value;
-  var tlx = new TimelineLite();
-  var tly = new TimelineLite();
+    var name = $('#entry\\.1779284427').val();
+        console.log(name);
+    var senderEmail = $('#entry\\.433919051').val();
+    var senderMessage = $('#entry\\.242520132').val();
+    var tlx = new TimelineLite();
+    var tly = new TimelineLite();
 
   if (name.length == 0 | senderEmail.length == 0){
   
@@ -69,12 +71,14 @@ $('#contact_form').on('submit', function(){
   
   }else{
 
-  $('#error_message').css({'display' : 'none'});
-  document.getElementById("entry.1779284427").value = '';
-  document.getElementById("entry.433919051").value = '';
-  document.getElementById("entry.242520132").value = '';
+    $('#error_message').css({'display' : 'none'});
+    $('#entry\\.1779284427').value = '';
+    $('#entry\\.433919051').value = '';
+    $('#entry\\.242520132').value = '';
 
   tly.staggerTo("#success_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05);
 
   }
+
+  });
 });
