@@ -78,6 +78,9 @@ $(document).ready(function(){
 
   tly.staggerTo("#success_message", .5, {display: 'block', autoAlpha: '1', delay:.5}, 0.05);
 
+  TweenLite.to("#contact_form", .5, {autoAlpha: '0', height: '0'});
+
+
   }
 
   });
