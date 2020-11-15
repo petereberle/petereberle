@@ -77,7 +77,7 @@ function visitCookie(){
      $('body').css({'height' : windowHeight});
      $('#intro_heading').addClass("loading");
 
-     $('#intro_description').html('<p style="color:#ccc">' + 'I\'m getting setup for you' + '</p>');
+     $('#intro_description').html('<p style="color:#ccc">' + 'I\'ll be with you in a moment' + '</p>');
 
      setTimeout( function() {
 
@@ -93,7 +93,7 @@ function visitCookie(){
       $('#intro_heading').removeClass("loading");
       $('#intro_description').html(cachedDescription);
 
-      }, 3000);
+      }, 3500);
 
    } else {
 
