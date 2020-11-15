@@ -25,7 +25,6 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <!--functions-->
 <script src="js/functions.js"></script>
-<script src="js/buffer.js"></script>
 <!--render markdown CMS-->
 <script src="js/stmd.js"></script>
 <script src="js/PE_CMS.js"></script>
@@ -62,11 +61,16 @@
 	<div class="inner">
 			<div id="entry" class="flex_container_row">
 				<div class="flex_left">
-				<h1>Hello,<br> I'm Peter Eberle</h1>
+				<h1 id="intro_heading">Hello,<br> I'm Peter Eberle</h1>
+				<!--buffer-->
+				<div id="page_load_wrapper">
+					<div id="load_chevron">
+					</div>
+				</div>
+				<!--description-->
 				<p>Artist, designer and nonprofit coordinator in Walla Walla, Washington.</p>
-				
 				<p>I craft beautiful websites for community organizations centered around the arts. Check out what I'm working on below.</p>
-				<div id="firstVisit"></div>
+				<!--directional scroll-->
 				<div id="down_scroll_wrapper">
 						<a href="#" onclick="scrolltoSection(&quot;#project&quot;);" class="clear"><img id="down_scroll" src="assets/arrow_no_tail.svg" alt="down"></a>
 				</div>
