@@ -48,6 +48,7 @@ $(window).resize( function(){
 */
 
 //PAGE BUFFER ON FIRST VISIT
+/*
 
 function GetCookie(name) {
   var arg=name+"=";
@@ -100,6 +101,8 @@ function visitCookie(){
 $(document).ready(function(){
   visitCookie();
 });
+
+*/
 
 //ON SCROLL EVENTS
 
