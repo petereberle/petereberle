@@ -1,4 +1,4 @@
-//GET WINDOW HEIGHT
+//SET HEADING HEIGHT
 
 $(document).ready(function() {
 
@@ -28,7 +28,7 @@ function visitCookie(){
   var visit=GetCookie("FirstTimeVisitCookie");
   if (visit==null){
      var expire=new Date();
-     expire=new Date(expire.getTime()+7776000000);
+     expire=new Date(expire.getTime()+2420000000);
      document.cookie="FirstTimeVisitCookie=here; expires="+expire + ";path=/";
     
      $('body').addClass("content_locked");
@@ -46,7 +46,7 @@ function visitCookie(){
       $('body').removeClass("content_locked");
       $('#intro_heading').removeClass("loading");
 
-      }, 3000);
+      }, 3500);
 
    } else {
 
@@ -83,7 +83,7 @@ $(document).ready(function(){
 
     });
 
-//Contact Form
+//CONTACT FORM
 
 function removeProp() {
 

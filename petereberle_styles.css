@@ -785,6 +785,9 @@ textarea{
 		bottom:30px;
 	}
 
+	#intro_heading.loading:before {
+	}
+
 }
 
 @media screen and (max-height:649px){

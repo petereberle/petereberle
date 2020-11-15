@@ -39,7 +39,7 @@ function visitCookie(){
 
    } else {
 
-   		$('#page_load_wrapper').css({'background' : 'unset', 'position' : 'unset', 'width' : '0', 'height' : '0', 'display' : 'none'})
+   		$('#page_load_wrapper').css({'background' : 'unset', 'position' : 'unset', 'width' : '0', 'height' : '0', 'display' : 'none'});
 
    }
 }
