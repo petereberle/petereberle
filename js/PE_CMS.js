@@ -38,6 +38,27 @@
   $('.images > li').addClass("alt");
   $('.article').children("h2").addClass("tag");
 
+//LAZYLOAD
+
+$('img').each(
+
+function(){
+
+  //get current src
+  var cachedSource = $(this).attr('src');
+
+  //remove src attribute
+  $(this).attr('src', '');
+  $(this).removeAttr('src');
+
+  //set data-src with cached
+  $(this).attr('data-src', cachedSource);
+
+  //add lazy load class
+  $(this).addClass('lazyload');
+
+});
+
 //Project filters
 
 var tagArray = [];

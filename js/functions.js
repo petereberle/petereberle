@@ -1,4 +1,5 @@
 //LAZYLOAD
+
 $(document).ready(function () {
 
 $('img').each(
