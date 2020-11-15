@@ -65,6 +65,7 @@ function GetCookie(name) {
 }
 function visitCookie(){
   var visit=GetCookie("FirstTimeVisitCookie");
+  var cachedDescription = $('#intro_description').html();
   if (visit==null){
      var expire=new Date();
      expire=new Date(expire.getTime()+2420000000);
@@ -75,6 +76,8 @@ function visitCookie(){
      $('body').addClass("content_locked");
      $('body').css({'height' : windowHeight});
      $('#intro_heading').addClass("loading");
+
+     $('#intro_description').html('<p style="color:#ccc">' + 'I\'m getting setup for you' + '</p>');
 
      setTimeout( function() {
 
@@ -88,8 +91,9 @@ function visitCookie(){
       $('body').removeClass("content_locked");
       $('body').css({'height' : 'unset'});
       $('#intro_heading').removeClass("loading");
+      $('#intro_description').html(cachedDescription);
 
-      }, 2500);
+      }, 3000);
 
    } else {
 
