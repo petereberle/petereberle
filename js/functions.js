@@ -85,3 +85,12 @@ $(document).ready(function(){
 
   });
 });
+
+
+$(window).scroll(function (){
+
+var matchScroll = document.documentElement.scrollTop*1.2;
+
+$('#sketch-div').css({'right' : matchScroll, 'left' : 'auto'});
+
+});

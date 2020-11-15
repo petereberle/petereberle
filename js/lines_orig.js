@@ -1,96 +1,68 @@
-var startTime;
-
-function start(){
-	startTime = millis()
-}
-
 var fadeIn;
 var fadeAmount = 1;
 var cachedWidth = $(window).width();
 
 //var r, g, b;
 
-var opaciity;
+var yoff = 0.0;  
+
 
 
 function setup() {
 
 	let parentWidth = document.querySelector(".heading_block").offsetWidth;
-	let parentHeight = document.querySelector(".heading_block").offsetHeight;
+	let parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
 
 	let canvas = createCanvas(parentWidth, parentHeight);
 	canvas.parent('sketch-div');
-	frameRate(5);
 	fadeIn = 30;
-	start();
-	//r = random(96, 116);
-	//g = random(99, 119);
-	//b = random(102, 122);
-	
 }
 
-function draw() {
+function draw() { 
 
-	let perspectiveX1 = parentWidth*.75;
-	let perspectiveX2 = parentWidth*.8;
+	  clear();
 
-	let perspectiveX3 = parentWidth*.70;
-	let perspectiveX4 = parentWidth*.85;
+  fill(255, 255, 255, 70);
+  // We are going to draw a polygon out of the wave points
+  beginShape(); 
+  noStroke();
+  
+  var xoff = 0;       // Option #1: 2D Noise
+  // float xoff = yoff; // Option #2: 1D Noise
+  
+  // Iterate over horizontal pixels
+  for (var x = 0; x <= windowHeight; x += 10) {
+    // Calculate a y value according to noise, map to 
+    var y = map(noise(yoff, xoff), 0, 1, cappedFirst, cappedSecond); // Option #1: 2D Noise
+    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
+    
+    // Set the vertex
+    vertex(y, x); 
+    // Increment x dimension for noise
+    xoff += 0.05;
+  }
+  // increment y dimension for noise
+  yoff += 0.01;
+  vertex(0, windowHeight);
+  vertex(0, 0);
+  endShape(CLOSE);
 
-	//let randomParent = random(parentWidth*.6, parentWidth);
-
-	let perspectiveY1 = 0;
-
-	if(cachedWidth < 900){
-
-			perspectiveX1 = 0;
-			perspectiveX2 = parentWidth;
-
-			perspectiveX3 = 0;
-			perspectiveX4 = parentWidth;
-
-			if (fadeIn < 0) fadeAmount = 1;
-
-			if (fadeIn > 50) fadeAmount = -10;
-
-	//} else{
-
-			if (fadeIn < 0) fadeAmount = 1;
-
-			if (fadeIn > 70) fadeAmount = -10;
-	}
-
-	stroke(106, 109, 112, fadeIn);
-
-	let l = random(perspectiveX3, perspectiveX4);
-	let i = perspectiveY1;
-	let n = random(perspectiveX3, perspectiveX4);
-	let e = parentHeight;
-	
-	line(l,i,n,e);
-
-	//fadeIn += fadeAmount;
-
-	var currentTime = millis();
-	var runTime = 45 * 1000;
-
-	//restart after 40 secs
-
-	if (currentTime > startTime + runTime){
-
-				clear();
-				start();
-
-	}
 }
 
 var parentWidth = document.querySelector(".heading_block").offsetWidth;
-var parentHeight = document.querySelector(".heading_block").offsetHeight;
+var parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
+
+var cappedFirst = parentWidth*.9;
+var cappedSecond = parentWidth;
+
 
 function windowResized() {
 
 parentWidth = document.querySelector(".heading_block").offsetWidth;
-parentHeight = document.querySelector(".heading_block").offsetHeight;
+parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
+
+cappedFirst = parentWidth*.9;
+cappedSecond = parentWidth;
 
 var newWidth = $(window).width();
         

@@ -1,79 +1,87 @@
-//original sketch: https://editor.p5js.org/arthurrc/sketches
-let inc;
-let scl;
-let cols;
-let rows;
-
-let zoff;
-
-let fr;
-
-let particles = [];
-
-let flowField = [];
-
-var cachedWidth = $(window).width();
-
 var startTime;
 
 function start(){
-	startTime = millis()
+  startTime = millis()
 }
 
+var fadeIn;
+var fadeAmount = 1;
+var cachedWidth = $(window).width();
+
+//var r, g, b;
+
+var opaciity;
+
+
 function setup() {
+
   let parentWidth = document.querySelector(".heading_block").offsetWidth;
   let parentHeight = document.querySelector(".heading_block").offsetHeight;
+
   let canvas = createCanvas(parentWidth, parentHeight);
-	canvas.parent('sketch-div');
-
-  zoff = 0;
-  scl = 10;
-  inc = 0.1;
-  cols = floor(width / scl);
-  rows = floor(height / scl);
-  fr = createP();
-
-  for (let i = 0; i < 2000; i++) {
-    particles[i] = new Particle();
-  }
- 
+  canvas.parent('sketch-div');
+  frameRate(5);
+  fadeIn = 30;
+  start();
+  //r = random(96, 116);
+  //g = random(99, 119);
+  //b = random(102, 122);
+  
 }
 
 function draw() {
-  let yoff = 0;
-  for (let y = 0; y < rows; y++) {
-    let xoff = 0;
-    for (let x = 0; x < cols; x++) {
-      let index = (x + y * cols);
-      let angle = noise(xoff, yoff, zoff) * TWO_PI;
-      let v = p5.Vector.fromAngle(angle);
-      v.setMag(1);
-      flowField[index] = v;
-      xoff += inc;
-      
-    }
-    yoff += inc;
-    zoff += 0.0002;
 
-    var currentTime = millis();
-	var runTime = 45 * 1000;
+  let perspectiveX1 = parentWidth*.75;
+  let perspectiveX2 = parentWidth*.8;
 
-	//restart after 40 secs
+  let perspectiveX3 = parentWidth*.70;
+  let perspectiveX4 = parentWidth*.85;
 
-	if (currentTime > startTime + runTime){
-				clear();
-				start();
-	}
+  //let randomParent = random(parentWidth*.6, parentWidth);
 
+  let perspectiveY1 = 0;
+
+  if(cachedWidth < 900){
+
+      perspectiveX1 = 0;
+      perspectiveX2 = parentWidth;
+
+      perspectiveX3 = 0;
+      perspectiveX4 = parentWidth;
+
+      if (fadeIn < 0) fadeAmount = 1;
+
+      if (fadeIn > 50) fadeAmount = -10;
+
+  //} else{
+
+      if (fadeIn < 0) fadeAmount = 1;
+
+      if (fadeIn > 70) fadeAmount = -10;
   }
 
-  for (let i = 0; i < particles.length; i++) {
-    particles[i].update();
-    particles[i].edges();
-    particles[i].show();    
-    particles[i].follow(flowField);
+  stroke(106, 109, 112, fadeIn);
+
+  let l = random(perspectiveX3, perspectiveX4);
+  let i = perspectiveY1;
+  let n = random(perspectiveX3, perspectiveX4);
+  let e = parentHeight;
+  
+  line(l,i,n,e);
+
+  //fadeIn += fadeAmount;
+
+  var currentTime = millis();
+  var runTime = 45 * 1000;
+
+  //restart after 40 secs
+
+  if (currentTime > startTime + runTime){
+
+        clear();
+        start();
+
   }
-  fr.html(floor(frameRate()) + " fps");
 }
 
 var parentWidth = document.querySelector(".heading_block").offsetWidth;
@@ -92,7 +100,7 @@ var newWidth = $(window).width();
 
          var windowWidth = $(window).width();
 
-    	cachedWidth = newWidth;
+      cachedWidth = newWidth;
     }
 
 }
