@@ -1,10 +1,22 @@
 //SET HEADING HEIGHT
+var windowHeight = $(window).height() - 150;
 
 $(document).ready(function() {
 
-  var windowHeight = $(window).height() - 150;
-
   $(".heading_block").height(windowHeight);
+
+});
+
+$(window).resize( function(){
+
+  var newHeight = $(window).height() - 150;
+
+  if(newHeight !== windowHeight){  
+
+      $(".heading_block").height(windowHeight);
+
+      windowHeight = newHeight;
+    }
 
 });
 
