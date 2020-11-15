@@ -146,10 +146,18 @@ $(document).ready(function(){
   });
 });
 
+//PARALLAX P5 SKETCH ON SCROLL
 
 $(window).scroll(function (){
 
 var matchScroll = document.documentElement.scrollTop*1.3;
+
+var containerHeight = $(".heading_block").height();
+
+if (matchScroll > containerHeight){
+  
+    matchScroll = containerHeight;
+}
 
 $('#sketch-div').css({'top' : matchScroll, 'bottom' : 'auto'});
 
