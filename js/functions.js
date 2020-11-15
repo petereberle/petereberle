@@ -30,8 +30,11 @@ function visitCookie(){
      var expire=new Date();
      expire=new Date(expire.getTime()+2420000000);
      document.cookie="FirstTimeVisitCookie=here; expires="+expire + ";path=/";
+
+     var windowHeight = $(window).height();
     
      $('body').addClass("content_locked");
+     $('body').css({'height' : windowHeight});
      $('#intro_heading').addClass("loading");
 
      setTimeout( function() {
