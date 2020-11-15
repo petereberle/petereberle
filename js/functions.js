@@ -1,3 +1,27 @@
+//LAZYLOAD
+$(document).ready(function () {
+
+$('img').each(
+
+function(){
+
+  //get current src
+  var cachedSource = $(this).attr('src');
+
+  //remove src attribute
+  $(this).attr('src', '');
+  $(this).removeAttr('src');
+
+  //set data-src with cached
+  $(this).attr('data-src', cachedSource);
+
+  //add lazy load class
+  $(this).addClass('lazyload');
+
+});
+
+});
+
 //SET HEADING HEIGHT
 var windowHeight = $(window).height() - 150;
 
@@ -155,7 +179,7 @@ var matchScroll = document.documentElement.scrollTop*1.3;
 var containerHeight = $(".heading_block").height();
 
 if (matchScroll > containerHeight){
-  
+
     matchScroll = containerHeight;
 }
 
