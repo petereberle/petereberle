@@ -295,7 +295,7 @@
 <div class="article">
 
 # Watch until the end
-* ![](images/watch_until_the_end.gif)
+* <iframe src="https://player.vimeo.com/video/304703614" width="640" height="360" frameborder="0" allow="autoplay;"></iframe>
 * 2019
 	
 	Experimental still photo, video and digital painting montage with generated sound. 
@@ -303,8 +303,6 @@
 	Watch the full composition below.
 
 <!--secondary images-->
-
-* <iframe src="https://player.vimeo.com/video/304703614" width="640" height="360" frameborder="0" allow="autoplay;"></iframe>
 
 <!--put category tag here-->
 
