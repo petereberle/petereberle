@@ -511,7 +511,7 @@ input[type="submit" i] {
 	z-index:10000;
 	position:absolute;
 }
-
+/*
 #page_load_wrapper{
 	background:#ffffff;
 	position:absolute;
@@ -523,6 +523,7 @@ input[type="submit" i] {
 	left:0;
 	z-index:5000;
 }
+*/
 
 @keyframes spinner {
   to {transform: rotate(360deg);}
