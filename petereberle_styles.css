@@ -510,6 +510,11 @@ input[type="submit" i] {
 .loading{
 	z-index:10000;
 	position:absolute;
+	width:50%;
+	display: block;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #page_load_wrapper{
@@ -787,7 +792,8 @@ textarea{
 		bottom:30px;
 	}
 
-	#intro_heading.loading:before {
+	.loading{
+		width:calc(100% - 40px);
 	}
 
 }
