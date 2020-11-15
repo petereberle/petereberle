@@ -19,20 +19,17 @@ function setup() {
 }
 
 function draw() { 
-
+//modified sketch. original by Daniel Schmiffman
 	clear();
 	fill(255, 255, 255, 70);
-  // We are going to draw a polygon out of the wave points
 	beginShape(); 
 	noStroke();
   	var xoff = 0;       // Option #1: 2D Noise
-  // float xoff = yoff; // Option #2: 1D Noise
   
-  // Iterate over horizontal pixels
+  	// Iterate over horizontal pixels
   	for (var x = 0; x <= windowWidth; x += 10) {
     // Calculate a y value according to noise, map to 
-    var y = map(noise(yoff, xoff), 0, 1, cappedFirst, cappedSecond); // Option #1: 2D Noise
-    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
+    var y = map(noise(yoff, xoff), 0, 1, cappedFirst, cappedSecond);
     
     // Set the vertex
     vertex(x, y); 
