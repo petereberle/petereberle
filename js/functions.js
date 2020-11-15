@@ -7,6 +7,7 @@ $(document).ready(function() {
 
 });
 
+/*
 $(window).resize( function(){
 
   var newHeight = $(window).height() - 150;
@@ -19,6 +20,7 @@ $(window).resize( function(){
     }
 
 });
+*/
 
 //PAGE BUFFER ON FIRST VISIT
 
