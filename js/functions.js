@@ -48,7 +48,6 @@ $(window).resize( function(){
 */
 
 //PAGE BUFFER ON FIRST VISIT
-/*
 
 function GetCookie(name) {
   var arg=name+"=";
@@ -90,7 +89,7 @@ function visitCookie(){
       $('body').css({'height' : 'unset'});
       $('#intro_heading').removeClass("loading");
 
-      }, 2000);
+      }, 2500);
 
    } else {
 
@@ -101,8 +100,6 @@ function visitCookie(){
 $(document).ready(function(){
   visitCookie();
 });
-
-*/
 
 //ON SCROLL EVENTS
 
