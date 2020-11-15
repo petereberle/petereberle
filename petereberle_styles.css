@@ -499,6 +499,7 @@ input[type="submit" i] {
 	padding-bottom:50px;
 	position:relative;
 	z-index:1;
+	overflow:hidden;
 }
 
 /*p5.js parent*/
