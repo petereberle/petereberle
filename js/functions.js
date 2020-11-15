@@ -89,7 +89,7 @@ function visitCookie(){
       $('body').css({'height' : 'unset'});
       $('#intro_heading').removeClass("loading");
 
-      }, 3500);
+      }, 2000);
 
    } else {
 
