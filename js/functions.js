@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 $(window).scroll(function (){
 
-var matchScroll = document.documentElement.scrollTop*1.2;
+var matchScroll = document.documentElement.scrollTop*1.3;
 
 $('#sketch-div').css({'top' : matchScroll, 'bottom' : 'auto'});
 
