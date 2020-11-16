@@ -1,3 +1,5 @@
+"use strict";
+
 var fadeIn;
 var fadeAmount = 1;
 var cachedWidth = $(window).width();
@@ -6,8 +8,6 @@ var cachedWidth = $(window).width();
 //var r, g, b;
 
 var yoff = 0.0;  
-
-
 
 function setup() {
 
