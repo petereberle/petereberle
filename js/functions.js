@@ -126,7 +126,7 @@ function visitCookie(){
       $('#intro_heading').removeClass("loading");
       $('#intro_description').html(cachedDescription);
 
-      }, 10000000);
+      }, 500);
 
     });
 
