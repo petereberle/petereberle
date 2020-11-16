@@ -672,6 +672,10 @@ input[type="submit" i] {
 	margin-left: auto;
 }
 
+#contact_form label{
+	display:none;
+}
+
 .newsletter_input {
 	width: calc(100% - 10px) !important;
 	background: unset !important;

@@ -12,7 +12,6 @@
 <link href="js/stmd.min.js" rel="preload" as="script"></link>
 <link href="js/PE_CMS.js" rel="preload" as="script"></link>
 <link href="js/lazysizes.min.js" rel="preload" as="script"></link>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" rel="preload" as="script"></link>
 <link href="petereberle_styles.css" rel="preload" as="style">
 <link href="assets/fonts/Proxima_Nova.ttf" rel="preload" as="font" type="font/ttf" crossorigin>
 <link href="assets/fonts/Proxima_Nova_Semibold.ttf" rel="preload" as="font" type="font/ttf" crossorigin>
@@ -125,8 +124,11 @@
 				<h1 class="footer_item">Contact Me</h1>
 					<!--form-->
 					<form name="contact_form" id="contact_form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScI4lRfEJDnz6W2GPLxZuaAVLZ8ZoyTCsMKfX7JBYFOzRfjhw/formResponse?" target="fake_redirect" onsumbmit="submitted=true;">
+						<label for="entry.1779284427">First and Last Name</label>
 						<input type="text" onchange="removeProp()" placeholder="First and Last Name" name="entry.1779284427" class="newsletter_input" id="entry.1779284427">
+						<label for="entry.433919051">Email</label>
 						<input type="text" onchange="removeProp()" placeholder="Email" name="entry.433919051" class="newsletter_input" id="entry.433919051">
+						<label for="entry.242520132">Message</label>
 						<textarea class="newsletter_input" placeholder="Message" name="entry.242520132" id="entry.242520132" onchange="removeProp()"></textarea>
 						<div class="slide_btn">
 							<input class="clear footer_item" type="submit" value="Submit" id="send"></input>
