@@ -33,7 +33,7 @@
   $('.main').children(":first-child").addClass("first");
   $('.first').next().addClass("description");
   $('.description').children(":first-child").addClass("year");
-  $('.first').find("img").addClass("card");
+  $('.first').find("img, video").addClass("card");
   $('.article').children().not(".main, .title, .proxima, h2").addClass("images");
   $('.images > li').addClass("alt");
   $('.article').children("h2").addClass("tag");
