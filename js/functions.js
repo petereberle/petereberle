@@ -24,6 +24,7 @@ function(){
 });
 
 //SET HEADING HEIGHT
+
 var windowHeight = $(window).height() - 150;
 
 $(document).ready(function() {
