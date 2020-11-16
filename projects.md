@@ -295,7 +295,7 @@
 <div class="article">
 
 # Watch until the end
-* <video autoplay loop><source src="images/watch_until_the_end.mp4" type="video/mp4"></video>
+* <video autoplay loop muted><source src="images/watch_until_the_end.mp4" type="video/mp4"></video>
 * 2019
 	
 	Experimental still photo, video and digital painting montage with generated sound. 
@@ -368,7 +368,7 @@
 <div class="article">
 
 # Wash
-* <video autoplay loop><source src="images/Wash_Water_detergent_magazine.mp4" type="video/mp4"></video>
+* <video autoplay loop muted><source src="images/Wash_Water_detergent_magazine.mp4" type="video/mp4"></video>
 * 2018
 	
 	**Materials:** Scanner, magazine, detergent, water, pebbles
