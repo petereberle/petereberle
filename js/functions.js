@@ -99,7 +99,7 @@ function visitCookie(){
 
       $('#page_load_wrapper').css({'background' : 'unset', 'position' : 'unset', 'width' : '0', 'height' : '0', 'display' : 'none'});
       TweenMax.from("#down_scroll_wrapper", .75, {autoAlpha: '0', marginTop: '-20px', ease:Power2.easeInOut, repeat:0, delay:1.25});
-      
+
    }
 }
 $(document).ready(function(){
@@ -187,6 +187,11 @@ var containerHeight = $(".heading_block").height();
 if (matchScroll > containerHeight){
 
     matchScroll = containerHeight;
+}
+
+if (matchScroll < containerHeight){
+
+    matchScroll = 0;
 }
 
 $('#sketch-div').css({'top' : matchScroll, 'bottom' : 'auto'});
