@@ -313,6 +313,25 @@
 </div>
 <div class="article">
 
+# Cistern
+* ![](images/cistern.jpg)
+* 2019
+	
+	Painting on board inlaid within concrete trough and drain. While painting was in process, wet medium passed into the trough and out through the pipe below.
+	
+	**Materials:** cast concrete, oil paint, screen print on japanese paper
+
+<!--secondary images-->
+
+* ![](images/cistern_detail.jpg)
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Stratigraphs
 * ![](images/Stratigraps_dyptych,oil.jpg)
 * 2019
