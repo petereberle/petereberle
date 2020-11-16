@@ -64,6 +64,7 @@ function GetCookie(name) {
   }
   return null;
 }
+
 function visitCookie(){
   var visit=GetCookie("FirstTimeVisitCookie");
   var cachedDescription = $('#intro_description').html();
@@ -80,6 +81,8 @@ function visitCookie(){
 
      $('#intro_description').html('<p style="color:#ccc">' + 'I\'ll be with you in a moment' + '</p>');
 
+    $(window).load(function(){
+
      setTimeout( function() {
 
       let tl = new TimelineLite();
@@ -95,6 +98,9 @@ function visitCookie(){
       $('#intro_description').html(cachedDescription);
 
       }, 3500);
+
+    });
+
 
    } else {
 
