@@ -1,5 +1,3 @@
-"use strict";
-
 var fadeIn;
 var fadeAmount = 1;
 var cachedWidth = $(window).width();
@@ -8,6 +6,13 @@ var cachedWidth = $(window).width();
 //var r, g, b;
 
 var yoff = 0.0;  
+
+$('.heading_block').addClass('p5Loading');
+
+function start(){
+
+	$('.heading_block').removeClass('p5Loading');
+}
 
 function setup() {
 
@@ -25,8 +30,9 @@ var parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
 var cappedFirst = 0;
 var cappedSecond = parentHeight*.25;
 
-function draw() { 
+function draw() {
 //modified sketch. original by Daniel Schmiffman
+	start();
 	clear();
 	fill(255, 255, 255, 30);
 	beginShape(); 
