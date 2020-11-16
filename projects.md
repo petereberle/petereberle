@@ -351,7 +351,7 @@
 * ![](images/cistern.jpg)
 * 2019
 	
-	Painting on board inlaid within concrete trough and drain. While painting was in process, wet medium passed into the trough and out through the pipe below.
+	Painting with internal plumbing. While painting was in process, wet medium passed into a cast trough and out through a drain pipe below.
 	
 	**Materials:** cast concrete, oil paint, screen print on japanese paper
 
