@@ -1,25 +1,30 @@
-//LAZYLOAD
+//LAZYLOAD (if not SVG)
 
 $(document).ready(function () {
 
-$('img').each(
+  $('img').each(function (){ 
 
-function(){
+    //get current src
+    var cachedSource = $(this).attr('src');
 
-  //get current src
-  var cachedSource = $(this).attr('src');
+    var arraySource = cachedSource.split('.').pop().toLowerCase();
 
-  //remove src attribute
-  $(this).attr('src', '');
-  $(this).removeAttr('src');
+    if ($.inArray(arraySource, ['gif','png','jpg','jpeg']) == 1) {
 
-  //set data-src with cached
-  $(this).attr('data-src', cachedSource);
+      //remove src attribute
+      $(this).attr('src', '');
+      $(this).removeAttr('src');
 
-  //add lazy load class
-  $(this).addClass('lazyload');
+      //set data-src with cached
+      $(this).attr('data-src', cachedSource);
+
+      //add lazy load class
+      $(this).addClass('lazyload');
+
+  }
 
 });
+
 
 });
 
