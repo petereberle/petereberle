@@ -429,6 +429,21 @@
 </div>
 <div class="article">
 
+# Concomitants
+* ![](images/Concomitants_oil_assembled.jpg)
+* 2020
+
+	**Materials:** Oil on assembled canvases
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Excavation
 * ![](images/Excavation.jpg)
 * 2019
