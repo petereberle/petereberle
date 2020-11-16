@@ -81,7 +81,7 @@ function visitCookie(){
 
      $('#intro_description').html('<p style="color:#ccc">' + 'I\'ll be with you in a moment' + '</p>');
 
-    $(window).load(function(){
+    $(window).on('load', function(){
 
      setTimeout( function() {
 
