@@ -49,7 +49,7 @@ $(window).resize( function(){
 */
 
 //PAGE BUFFER ON FIRST VISIT
-/*
+
 function GetCookie(name) {
   var arg=name+"=";
   var alen=arg.length;
@@ -106,7 +106,6 @@ function visitCookie(){
 $(document).ready(function(){
   visitCookie();
 });
-*/
 
 //ON SCROLL EVENTS
 
