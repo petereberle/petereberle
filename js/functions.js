@@ -108,7 +108,7 @@ function visitCookie(){
      $('body').css({'height' : windowHeight});
      $('#intro_heading').addClass("loading");
 
-     $('#intro_description').html('<p style="color:#ccc">' + '...' + '</p>');
+     $('#intro_description').html('<p style="color:#ccc">' + 'Just a moment...' + '</p>');
 
     $(window).on('load', function(){
 

@@ -94,7 +94,7 @@ parentWidth = document.querySelector(".heading_block").offsetWidth;
 parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
 
 
-/*var newWidth = $(window).width();
+var newWidth = $(window).width();
         
         if(newWidth !== cachedWidth){  
 
@@ -103,13 +103,13 @@ parentHeight = document.querySelector(".heading_block").offsetHeight*1.1;
          var windowWidth = $(window).width();
 
     	cachedWidth = newWidth;
-    }*/
+    }
 
-  //if( $(window).width() > 900 ){
+  if( $(window).width() > 900 ){
 
       resizeCanvas(parentWidth, parentHeight);
 
- //   }
+    }
 
 	cappedFirst = 0;
 	cappedSecond = parentHeight*.25;
