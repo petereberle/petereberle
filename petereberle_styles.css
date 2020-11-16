@@ -522,7 +522,7 @@ input[type="submit" i] {
     margin-left: auto;
     margin-right: auto;
 }
-
+/*
 #page_load_wrapper{
 	background:#ffffff;
 	position:absolute;
@@ -534,7 +534,7 @@ input[type="submit" i] {
 	left:0;
 	z-index:5000;
 }
-
+*/
 @keyframes spinner {
   to {transform: rotate(360deg);}
 }
