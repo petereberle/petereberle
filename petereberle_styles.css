@@ -822,10 +822,12 @@ textarea{
 
 	#intro_heading.loading #intro_description:before {
 		width:40px;
+		height:40px;
 	}
 
 .heading_block.p5Loading:before {
 		width:40px;
+		height:40px;
 	}
 
 }
