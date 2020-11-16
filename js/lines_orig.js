@@ -99,6 +99,12 @@ var newWidth = $(window).width();
     	cachedWidth = newWidth;
     }
 
+  if( $(window).width() > 900 ){
+
+      resizeCanvas(parentWidth, parentHeight);
+
+    }
+
 	cappedFirst = 0;
 	cappedSecond = parentHeight*.25;
 

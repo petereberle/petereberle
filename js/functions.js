@@ -60,20 +60,26 @@ $(document).ready(function() {
 
 });
 
-/*
+
+
 $(window).resize( function(){
+
+  if( $(window).width() > 900 ){
 
   var newHeight = $(window).height() - 150;
 
   if(newHeight !== windowHeight){  
 
-      $(".heading_block").height(windowHeight);
+      $(".heading_block").height(newHeight);
 
       windowHeight = newHeight;
     }
 
+  }
+
 });
-*/
+
+
 
 //PAGE BUFFER ON FIRST VISIT
 
