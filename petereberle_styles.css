@@ -294,6 +294,10 @@ input[type="submit" i] {
 	padding-bottom:10%;
 }
 
+.last_section{
+	margin-top:unset;
+}
+
 #section_menu{
 	display:flex;
 	flex-wrap:wrap;
