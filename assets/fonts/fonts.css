@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('Proxima Nova.ttf') format('truetype');
+  src: url('Proxima_Nova.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
  }
 
  @font-face {
   font-family: 'Proxima Nova';
-  src: url('Proxima Nova Semibold.ttf') format('truetype');
+  src: url('Proxima_Nova_Semibold.ttf') format('truetype');
   font-weight:bold;
   font-style:normal;
  }
