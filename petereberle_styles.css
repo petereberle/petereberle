@@ -470,6 +470,7 @@ input[type="submit" i] {
 	margin-left:auto;
 	z-index:49;
 	display:table;
+	cusor:pointer;
 }
 
 #close>span{
