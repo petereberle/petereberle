@@ -97,7 +97,7 @@ function visitCookie(){
       $('#intro_heading').removeClass("loading");
       $('#intro_description').html(cachedDescription);
 
-      }, 3500);
+      }, 1000);
 
     });
 
