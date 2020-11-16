@@ -330,6 +330,21 @@
 </div>
 <div class="article">
 
+# Compression
+* ![](images/Compression_oil.jpg)
+* 2017
+	
+	**Materials:** Oil on canvas
+
+<!--secondary images-->
+
+<!--put category tag here-->
+
+## art
+
+</div>
+<div class="article">
+
 # Liquid Sleep
 * ![](images/Liquid_Sleep.jpg)
 * 2018
