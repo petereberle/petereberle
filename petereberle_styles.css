@@ -549,7 +549,7 @@ input[type="submit" i] {
     height: 80px;
     margin-top: -15px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 2px solid transparent;
     border-top-color: #3b3b43;
     animation: spinner .6s linear infinite;
 }
@@ -564,8 +564,8 @@ input[type="submit" i] {
     height: 80px;
     margin-top: -15px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
-    border-top-color: #3b3b43;
+    border: 2px solid transparent;
+    border-top-color: #ffffff;
     animation: spinner .6s linear infinite;
 }
 
