@@ -189,7 +189,7 @@ if (matchScroll > containerHeight){
     matchScroll = containerHeight;
 }
 
-if (matchScroll < containerHeight){
+if (matchScroll < 0){
 
     matchScroll = 0;
 }
