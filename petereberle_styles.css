@@ -199,10 +199,15 @@ input[type="submit" i] {
 
 #menu_right{
 	display:block;
-	align-self:right;
+	align-self:center;
 	align-items:center;
 	opacity:0;
 	padding:0;
+}
+
+#menu_right>img{
+	width:30px;
+	height:22px;
 }
 
 /*Scroll*/
