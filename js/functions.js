@@ -216,20 +216,20 @@ $(document).ready(function(){
 
 $(window).scroll(function (){
 
-var matchScroll = document.documentElement.scrollTop*1.3;
+  var matchScroll = document.documentElement.scrollTop*1.3;
 
-var containerHeight = $(".heading_block").height();
+  var containerHeight = $(".heading_block").height();
 
-if (matchScroll > containerHeight){
+  if (matchScroll > containerHeight){
 
-    matchScroll = containerHeight;
-}
+      matchScroll = containerHeight;
+  }
 
-if (matchScroll < 0){
+  if (matchScroll < 0){
 
-    matchScroll = 0;
-}
+      matchScroll = 0;
+  }
 
-$('#sketch-div').css({'top' : matchScroll, 'bottom' : 'auto'});
+  $('#sketch-div').css({'top' : matchScroll, 'bottom' : 'auto'});
 
 });
