@@ -2,7 +2,7 @@
 // Description: CMS fetches a markdown file, parses and renders it. <div class="article">
 // elements in the markdown file provide purchase for simple jQuery to traverse the rendered tree and
 // and seed classes. Greensocks tweens perform the heavy lifting in the UI. Rebuilds on screen resize
-// for mobile responsiveness.
+// for mobile responsiveness. Lazyload reduces single page wait time. 
 
 //Get markdown file
 
@@ -19,14 +19,14 @@
 
 //Render inside "#projects"
 
-  function display(project_file) {
+function display(project_file) {
     var parsed = reader.parse(project_file.responseText);
     var content = writer.renderBlock(parsed);
     document.getElementById('projects').innerHTML = content;
     
 //Add classes to rendered tree
 
-  $(document).ready(function(){
+$(document).ready(function(){
 
   $('.article').children(":first-child").addClass("title proxima");
   $('.article').find("ul:first").addClass("main");
@@ -62,13 +62,10 @@ function(){
 //Project filters
 
 var tagArray = [];
-console.log(tagArray);
 
 $('.tag').each(function(){
 
    var value = $(this).html();
-
-   console.log(value);
 
    $(this).parent('.article').addClass(value);
 
@@ -117,8 +114,6 @@ console.log(uniqueTag);
 $('.filter').click(function(){ 
 
   var tagName = $(this).prop('id');
-
-  console.log(tagName);
 
   closeProject();
 
