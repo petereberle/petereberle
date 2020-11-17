@@ -119,8 +119,6 @@ function visitCookie(){
       tl.to('#page_load_wrapper', 1, {autoAlpha: '0'})
       .to('#page_load_wrapper', .1, {display: 'none'});
 
-      TweenMax.from("#down_scroll_wrapper", .75, {autoAlpha: '0', marginTop: '-20px', ease:Power2.easeInOut, repeat:0, delay:1.25});
-
       $('body').removeClass("content_locked");
       $('body').css({'height' : 'unset'});
       $('#intro_heading').removeClass("loading");
