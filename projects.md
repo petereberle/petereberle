@@ -137,7 +137,7 @@
 </div>
 <div class="article">
 
-# peteeberle.com
+# paeberle.com
 * ![](images/peteeberle.com_fin.jpg)
 * 2020
 
