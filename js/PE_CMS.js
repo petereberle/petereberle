@@ -1,5 +1,5 @@
-// Peter Eberle 2020
-// Description: CMS fetches a markdown file, parses and renders it. <div class="article">
+
+// Description: Fetches a markdown file, parses and renders it. <div class="article">
 // elements in the markdown file provide purchase for simple jQuery to traverse the rendered tree and
 // and seed classes. Greensocks tweens perform the heavy lifting in the UI. Rebuilds on screen resize
 // for mobile responsiveness. Lazyload reduces single page wait time. 
