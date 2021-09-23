@@ -36,7 +36,7 @@
 
 	Over the course of opening week, the store generated more than $25,0000 in sales and sold 70% of inventory. 
 
-	**Technologies:** CSS, Javascript, PHP, Wordpress, Woocommerce, Elementor
+	**Technologies:** CSS, Javascript, Wordpress, Woocommerce, Elementor
 
 <!--secondary images-->
 
